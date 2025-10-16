@@ -9,7 +9,7 @@ var area : int
 var room : int
 
 ##sennò si incazza godot
-var char1_ID : int = 1
+var char1_ID : int = 3
 
 var char1_humanity : int
 var char1_name : String 
