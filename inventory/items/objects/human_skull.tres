@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="InventoryItem" load_steps=3 format=3 uid="uid://ctsa4kalmjyd6"]
+
+[ext_resource type="Script" uid="uid://dwf4r7jfwcayd" path="res://inventory/inventory_item.gd" id="1_hepwh"]
+
+[sub_resource type="Texture2DRD" id="Texture2DRD_8w1qc"]
+
+[resource]
+script = ExtResource("1_hepwh")
+id = 202
+name = "Deer Antlers"
+texture = SubResource("Texture2DRD_8w1qc")
+description = "Poor beast"
+metadata/_custom_type_script = "uid://dwf4r7jfwcayd"

@@ -1,0 +1,164 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1760633865
+icon.svg::CompressedTexture2D/CompressedTexture2D::4558987910203574693::1753355004::1753355112::1::::<><><>0<>0<>f9175933caf2e03cb2e5d266323501a4<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+README.md::TextFile/TextFile::-1::1753368313::0::1::::<><><>0<>0<><>::
+::res://addons/::1760633443
+::res://addons/godot-git-plugin/::1760633443
+git_plugin.gdextension::GDExtension::282036794061381969::1760633443::0::1::::<><><>0<>0<><>::
+plugin.cfg::TextFile::-1::1760633443::0::1::::<><><>0<>0<><>::
+THIRDPARTY.md::TextFile::-1::1760633443::0::1::::<><><>0<>0<><>::
+::res://addons/godot-git-plugin/linux/::1760633443
+::res://addons/godot-git-plugin/macos/::1760633443
+::res://addons/godot-git-plugin/win64/::1760633858
+::res://assets/::1760357064
+::res://assets/fonts/::1759148952
+TrajanPro-Bold.otf::FontFile/FontFile::1415372189823207531::1759148926::1759148952::1::::<><><>0<>0<>c3f46399c9c41fbc1a9cbbe08f0103c9<>res://.godot/imported/TrajanPro-Bold.otf-093c3048955c30977beb3f30323efac1.fontdata::
+TrajanPro-Regular.ttf::FontFile/FontFile::3253822946565975338::1759148926::1759148952::1::::<><><>0<>0<>eb0ec5321c2c01504ebc742f672d12e5<>res://.godot/imported/TrajanPro-Regular.ttf-3d8a69cfe3bc2117fc9c8cee5297e1fb.fontdata::
+::res://assets/sounds/::1760357183
+mixkit-typewriter-hit-1362.wav::AudioStreamWAV/AudioStreamWAV::6090645714642802259::1760357027::1760357183::1::::<><><>0<>0<>f42badfc4db3ccd34c60ba3420f99892<>res://.godot/imported/mixkit-typewriter-hit-1362.wav-f1b62ded5e7c2ab2988acbd17fe0b84f.sample::
+::res://assets/sprites/::1758883757
+opening.jpg::CompressedTexture2D/CompressedTexture2D::3566911852025906508::1743034634::1758883757::1::::<><><>0<>0<>f83d0387db91850c2708745928c9a7d6<>res://.godot/imported/opening.jpg-19ca690663c2d751c9b90321e2a21832.ctex::
+::res://assets/sprites/aree/::1752582071
+::res://assets/sprites/aree/Silvera (Test)/::1759233318
+dehumanizer.png::CompressedTexture2D/CompressedTexture2D::206613465282191836::1759152742::1759152746::1::::<><><>0<>0<>aa71f078b4462361c33975f504f74489<>res://.godot/imported/dehumanizer.png-9c4a6dad35f17c2628b7f3e6fe36d7b0.ctex::
+landmine.png::CompressedTexture2D/CompressedTexture2D::5275885134497956368::1759152704::1759152746::1::::<><><>0<>0<>477f311248bb361ef4362162cc0dc383<>res://.godot/imported/landmine.png-5f8c3ac6440fab71f1bfd6d38f23a0a7.ctex::
+punchInTheGut.png::CompressedTexture2D/CompressedTexture2D::7611076883253990221::1759152726::1759152746::1::::<><><>0<>0<>a6cfc0d610342123039444300c2d72bc<>res://.godot/imported/punchInTheGut.png-3b83a061e9d8d9a540fbaaec5cffefeb.ctex::
+silvera_tileset.png::CompressedTexture2D/CompressedTexture2D::1974869921710863253::1753355004::1753355112::1::::<><><>0<>0<>bc13512dd581ccbaf04ae5b79aae93d3<>res://.godot/imported/silvera_tileset.png-6b01b884930ff7139f06c021299a862f.ctex::
+spike tileset.png::CompressedTexture2D/CompressedTexture2D::619655106536106316::1759233316::1759233318::1::::<><><>0<>0<>afa5bafffb4e209d3df26ef629807e2d<>res://.godot/imported/spike tileset.png-b04c278f7fe123061d32286d187ba0e0.ctex::
+::res://assets/sprites/Characters/::1760094277
+frontSideMort.png::CompressedTexture2D/CompressedTexture2D::8914186784951645079::1753355004::1753355112::1::::<><><>0<>0<>5b62ed903e450b9d04da043f7b0b5143<>res://.godot/imported/frontSideMort.png-18e64d9172647a1e4191ba65f72cdcda.ctex::
+MortSheet.png::CompressedTexture2D/CompressedTexture2D::2730790969965763947::1753355004::1753355112::1::::<><><>0<>0<>4714cfada08b9992924b100b26f8587e<>res://.godot/imported/MortSheet.png-f43c58597affc5dcf253f62a80ecee14.ctex::
+RyaSheet.png::CompressedTexture2D/CompressedTexture2D::3743009683180054860::1760093871::1760093872::1::::<><><>0<>0<>64da9ab0b5ad54a7665e0e2577511278<>res://.godot/imported/RyaSheet.png-430163d4d46a6d2a8de4e86e68210ed6.ctex::
+staticRya.png::CompressedTexture2D/CompressedTexture2D::8317574186686097124::1760094270::1760094277::1::::<><><>0<>0<>9b6e5763fe338d135de58627f410a360<>res://.godot/imported/staticRya.png-7003cd0479c4c8b84ea62f5aec0ef79d.ctex::
+::res://assets/sprites/Characters/in fight/::1753355112
+dude.png::CompressedTexture2D/CompressedTexture2D::4832950549223612759::1753355004::1753355112::1::::<><><>0<>0<>c7d3eecf924e025b1795cf16f931a93e<>res://.godot/imported/dude.png-62d1efc1e97f4e592617d0ca8bfd7262.ctex::
+::res://assets/sprites/Characters/in map/::1752579263
+::res://assets/sprites/enemies/::1758882557
+::res://assets/sprites/enemies/mush village/::1755860051
+::res://assets/sprites/enemies/mush village/Mush Guy/::1755860234
+body.png::CompressedTexture2D/CompressedTexture2D::6452668225132619950::1755860082::1755860234::1::::<><><>0<>0<>fd7726b49b3ca3758be55ce60cac9eea<>res://.godot/imported/body.png-cb67fe480bdf162d3f25890798c68d60.ctex::
+cap.png::CompressedTexture2D/CompressedTexture2D::6707257865545960795::1755860178::1755860234::1::::<><><>0<>0<>d527473d4f334bd3738cc84be830a98a<>res://.godot/imported/cap.png-bc05f8822a1ae01b5354278bce7a0412.ctex::
+::res://assets/sprites/enemies/silvera (Test)/::1753355112
+dg6hhbg-afc993d2-733b-4418-99d9-32679df1a72f.png::CompressedTexture2D/CompressedTexture2D::5568874234791540000::1753355004::1753355112::1::::<><><>0<>0<>95123b151b701cbf52ed137e790a65cd<>res://.godot/imported/dg6hhbg-afc993d2-733b-4418-99d9-32679df1a72f.png-7beac66f841a10fe7311c6126e73f72a.ctex::
+earlyRotfront.png::CompressedTexture2D/CompressedTexture2D::6411024302274412967::1753355004::1753355112::1::::<><><>0<>0<>5c487529a48142ac44202176d39db56e<>res://.godot/imported/earlyRotfront.png-083bd0f672072f4e13dc864001dd7a69.ctex::
+FacelessBig.png::CompressedTexture2D/CompressedTexture2D::86575433489389505::1753355004::1753355112::1::::<><><>0<>0<>bd8d0fa850c89fab408779213900250f<>res://.godot/imported/FacelessBig.png-489f3e8ad8f66b9df038b2b6465925df.ctex::
+Senzanome.png::CompressedTexture2D/CompressedTexture2D::2452278337928878771::1753355004::1753355112::1::::<><><>0<>0<>62cc960b4ecfc41c2788726208d6571b<>res://.godot/imported/Senzanome.png-fbdeab893877a5f970c212136db6a963.ctex::
+::res://assets/sprites/enemies/silvera (Test)/heavy iron/::1753355112
+body.png::CompressedTexture2D/CompressedTexture2D::6124418231089878657::1753355004::1753355112::1::::<><><>0<>0<>0b8df8035b83e40d00b0fe2ba7d7d14a<>res://.godot/imported/body.png-dfaa7c2fbe77449e4cf6771ff7105b08.ctex::
+brokenArm.png::CompressedTexture2D/CompressedTexture2D::1075303821625080652::1753355004::1753355112::1::::<><><>0<>0<>e121a95e874ebc15a3c20278d56e98a5<>res://.godot/imported/brokenArm.png-e5a8fc738b4f7ccbba7a3965775ab772.ctex::
+head.png::CompressedTexture2D/CompressedTexture2D::9099520182444018061::1753355004::1753355112::1::::<><><>0<>0<>ccf33fc3ed597be8190d2a7caf41823f<>res://.godot/imported/head.png-ea2f1f78de137ba348052bb19504aebd.ctex::
+leftLeg.png::CompressedTexture2D/CompressedTexture2D::3118339491640753620::1753355004::1753355112::1::::<><><>0<>0<>f329dd870615ca99e8619c8a07ec4873<>res://.godot/imported/leftLeg.png-05f0744e5a2118bbf7afd74342bd6970.ctex::
+longArm.png::CompressedTexture2D/CompressedTexture2D::6431974047427262037::1753355004::1753355112::1::::<><><>0<>0<>22645086af8a5893c3a8f87546a79f23<>res://.godot/imported/longArm.png-0d1611ba4df36a09cb5216c9b7664141.ctex::
+rightLeg.png::CompressedTexture2D/CompressedTexture2D::2038712981161116888::1753355004::1753355112::1::::<><><>0<>0<>37eaca5c7a51c100ecccd553b31230da<>res://.godot/imported/rightLeg.png-f9104272eb88e3ea1452dd10f72e568b.ctex::
+smallHeavyIron.png::CompressedTexture2D/CompressedTexture2D::3474187810946562216::1753355004::1753355112::1::::<><><>0<>0<>8519987be08bda0d795f31d3004a9bf3<>res://.godot/imported/smallHeavyIron.png-2ee18f0c8fe12bd418d34e3ac0882f0e.ctex::
+::res://assets/sprites/fight/::1755858111
+redFight.png::CompressedTexture2D/CompressedTexture2D::1155542748060043861::1755858108::1755858111::1::::<><><>0<>0<>4aa4d65b31161baf3160f12ae288a706<>res://.godot/imported/redFight.png-261524ccb5310baa8ab1b0d26cb8aeee.ctex::
+::res://assets/sprites/GUI/::1759931861
+bloodBar.png::CompressedTexture2D/CompressedTexture2D::1195925078771526644::1759152463::1759152486::1::::<><><>0<>0<>aa8f5a5eca14c04f04fd4687de8753a3<>res://.godot/imported/bloodBar.png-7218f10f4b6430da5901fbde01c7b62d.ctex::
+button.png::CompressedTexture2D/CompressedTexture2D::2501849152860540466::1759931857::1759931861::1::::<><><>0<>0<>1b041a29940dbaa805c0f99d7fc92509<>res://.godot/imported/button.png-2b72a693de97a2f1ce482b3af239b30d.ctex::
+deathscreen.png::CompressedTexture2D/CompressedTexture2D::3634738358755397365::1759404121::1759404124::1::::<><><>0<>0<>8ea0ba1cd467997efca5994b6624bc1f<>res://.godot/imported/deathscreen.png-d010d9ab8bc803ca1d10e307c386705b.ctex::
+dialogue.png::CompressedTexture2D/CompressedTexture2D::7320467971200894619::1753355004::1753355112::1::::<><><>0<>0<>f58f6668d1dcba72f9d601e27be51148<>res://.godot/imported/dialogue.png-b9e53eb48ab61ac1921fda2979ba958e.ctex::
+::res://assets/sprites/GUI/menu/::1752237081
+::res://assets/sprites/GUI/menu/Mugshots/::1752237081
+::res://assets/sprites/GUI/menu/Mugshots/Mort/::1758882743
+MortMug.png::CompressedTexture2D/CompressedTexture2D::4216033275263818708::1758882185::1758882201::1::::<><><>0<>0<>faa02f8f2621c4b44801516f39bd49bd<>res://.godot/imported/MortMug.png-ec059d2e4d128f8046374b9c4abb8122.ctex::
+MortMug_Low.png::CompressedTexture2D/CompressedTexture2D::6934590508301565612::1758882735::1758882743::1::::<><><>0<>0<>1cf807acb79d891150683cbac975d8e4<>res://.godot/imported/MortMug_Low.png-738aae5ea13feb05ac47794362076934.ctex::
+::res://assets/sprites/Npc/::1752237081
+::res://assets/sprites/Npc/Mush village/::1755860234
+Senzanome.png::CompressedTexture2D/CompressedTexture2D::1437530754780741567::1755859738::1755860234::1::::<><><>0<>0<>88421df99853c104126512f3edff4ccc<>res://.godot/imported/Senzanome.png-0dac27c6ca857c173c599ee91a85a451.ctex::
+::res://info/::1753449927
+lista armi.txt::TextFile/TextFile::-1::1753445984::0::1::::<><><>0<>0<><>::
+lista effetti di stato.txt::TextFile/TextFile::-1::1753449560::0::1::::<><><>0<>0<><>::
+lista incantesimi.txt::TextFile/TextFile::-1::1753440775::0::1::::<><><>0<>0<><>::
+lista item.txt::TextFile/TextFile::-1::1753449927::0::1::::<><><>0<>0<><>::
+::res://inventory/::1753439982
+equipment_item.gd::GDScript/GDScript::7393707639619451478::1753366498::0::1::::EquipmentItem<>InventoryItem<><>0<>0<><>::
+food_item.gd::GDScript/GDScript::3957189819652008009::1753355004::0::1::::FoodItem<>InventoryItem<><>0<>0<><>::
+inventory_item.gd::GDScript/GDScript::8715531346080025475::1753355004::0::1::::InventoryItem<>Resource<><>0<>0<><>::
+inventory_slot.gd::GDScript/GDScript::5570426194524472857::1753439526::0::1::::InventorySlot<>Resource<><>0<>0<><>::
+player_inventory.gd::GDScript/GDScript::1152641945243166276::1753439982::0::1::::PlayerInventory<>Resource<><>0<>0<><>::
+player_inventory.tres::Resource/PlayerInventory::3205496400951527528::1753355004::0::1::::<><><>0<>0<><>::uid://qol3yfw77pls::::res://inventory/player_inventory.gd
+spells_item.gd::GDScript/GDScript::4032393680786285831::1753366176::0::1::::SpellItem<>InventoryItem<><>0<>0<><>::
+::res://inventory/items/::1753355004
+::res://inventory/items/equipments/::1753454474
+black_iron.tres::Resource/EquipmentItem::3180980715736379462::1753355004::0::1::::<><><>0<>0<><>::uid://ddltjw8skga5k::::res://inventory/equipment_item.gd
+chu-ko-nu.tres::Resource/EquipmentItem::1894330287114356427::1753454473::0::1::::<><><>0<>0<><>::uid://ddltjw8skga5k::::res://inventory/equipment_item.gd
+double_knight_swords.tres::Resource/EquipmentItem::2361195150966770109::1753454473::0::1::::<><><>0<>0<><>::uid://ddltjw8skga5k::::res://inventory/equipment_item.gd
+finger_darts.tres::Resource/EquipmentItem::4362626076679073054::1753454473::0::1::::<><><>0<>0<><>::uid://ddltjw8skga5k::::res://inventory/equipment_item.gd
+ghoul_mask.tres::Resource/EquipmentItem::48733572627156301::1753454473::0::1::::<><><>0<>0<><>::uid://ddltjw8skga5k::::res://inventory/equipment_item.gd
+GOD_greatsword.tres::Resource/EquipmentItem::6878715390359224341::1753454473::0::1::::<><><>0<>0<><>::uid://ddltjw8skga5k::::res://inventory/equipment_item.gd
+jagged_greatsword.tres::Resource/EquipmentItem::8518858326290641416::1753454473::0::1::::<><><>0<>0<><>::uid://ddltjw8skga5k::::res://inventory/equipment_item.gd
+jitte.tres::Resource/EquipmentItem::6051902561679804049::1753454473::0::1::::<><><>0<>0<><>::uid://ddltjw8skga5k::::res://inventory/equipment_item.gd
+khanda.tres::Resource/EquipmentItem::3752759310806171925::1753454473::0::1::::<><><>0<>0<><>::uid://ddltjw8skga5k::::res://inventory/equipment_item.gd
+kris.tres::Resource/EquipmentItem::7414107125517674195::1753454473::0::1::::<><><>0<>0<><>::uid://ddltjw8skga5k::::res://inventory/equipment_item.gd
+lucerne_hammer.tres::Resource/EquipmentItem::4928609206871911477::1753454473::0::1::::<><><>0<>0<><>::uid://ddltjw8skga5k::::res://inventory/equipment_item.gd
+macuahuitl.tres::Resource/EquipmentItem::4196064927486654460::1753454473::0::1::::<><><>0<>0<><>::uid://ddltjw8skga5k::::res://inventory/equipment_item.gd
+parashu.tres::Resource/EquipmentItem::9035425072868127256::1753454473::0::1::::<><><>0<>0<><>::uid://ddltjw8skga5k::::res://inventory/equipment_item.gd
+plumbata.tres::Resource/EquipmentItem::4913263922362429394::1753454473::0::1::::<><><>0<>0<><>::uid://ddltjw8skga5k::::res://inventory/equipment_item.gd
+shotel.tres::Resource/EquipmentItem::120149684454212760::1753454473::0::1::::<><><>0<>0<><>::uid://ddltjw8skga5k::::res://inventory/equipment_item.gd
+throwing_knives.tres::Resource/EquipmentItem::6038613004225524324::1753454473::0::1::::<><><>0<>0<><>::uid://ddltjw8skga5k::::res://inventory/equipment_item.gd
+tibiar.tres::Resource/EquipmentItem::6255712838399763396::1753454473::0::1::::<><><>0<>0<><>::uid://ddltjw8skga5k::::res://inventory/equipment_item.gd
+urumi.tres::Resource/EquipmentItem::1083763171564916834::1753454473::0::1::::<><><>0<>0<><>::uid://ddltjw8skga5k::::res://inventory/equipment_item.gd
+vertebrale.tres::Resource/EquipmentItem::6819340699166978298::1753454474::0::1::::<><><>0<>0<><>::uid://ddltjw8skga5k::::res://inventory/equipment_item.gd
+yari.tres::Resource/EquipmentItem::7589292921840078271::1753454474::0::1::::<><><>0<>0<><>::uid://ddltjw8skga5k::::res://inventory/equipment_item.gd
+::res://inventory/items/foods/::1753454474
+borscht.tres::Resource/FoodItem::8401885832636205911::1753454474::0::1::::<><><>0<>0<><>::uid://bwm5lq6ydnrmv::::res://inventory/food_item.gd
+golden_milk.tres::Resource/FoodItem::3986104123046816277::1753454474::0::1::::<><><>0<>0<><>::uid://bwm5lq6ydnrmv::::res://inventory/food_item.gd
+miso_soup.tres::Resource/FoodItem::1219586423277327503::1753454474::0::1::::<><><>0<>0<><>::uid://bwm5lq6ydnrmv::::res://inventory/food_item.gd
+nail_soup.tres::Resource/FoodItem::292625735608674113::1753454474::0::1::::<><><>0<>0<><>::uid://bwm5lq6ydnrmv::::res://inventory/food_item.gd
+rotten_meat.tres::Resource/FoodItem::3982069355512283303::1753454473::0::1::::<><><>0<>0<><>::uid://bwm5lq6ydnrmv::::res://inventory/food_item.gd
+watermelon.tres::Resource/FoodItem::3829751794043277358::1753454474::0::1::::<><><>0<>0<><>::uid://bwm5lq6ydnrmv::::res://inventory/food_item.gd
+::res://inventory/items/objects/::1753454474
+blue_gem.tres::Resource/InventoryItem::3192166570645434476::1753454473::0::1::::<><><>0<>0<><>::uid://dwf4r7jfwcayd::::res://inventory/inventory_item.gd
+deer_antlers.tres::Resource/InventoryItem::2607612313736742132::1753454474::0::1::::<><><>0<>0<><>::uid://dwf4r7jfwcayd::::res://inventory/inventory_item.gd
+human_skull.tres::Resource/InventoryItem::6143640509854844109::1753454474::0::1::::<><><>0<>0<><>::uid://dwf4r7jfwcayd::::res://inventory/inventory_item.gd
+red_gem.tres::Resource/InventoryItem::481940564834693980::1753454474::0::1::::<><><>0<>0<><>::uid://dwf4r7jfwcayd::::res://inventory/inventory_item.gd
+rock.tres::Resource/InventoryItem::558839480778502256::1753454474::0::1::::<><><>0<>0<><>::uid://dwf4r7jfwcayd::::res://inventory/inventory_item.gd
+::res://inventory/items/spells/::1753454474
+apoc1_devourYourself.tres::Resource/SpellItem::5185514865533579775::1753454474::0::1::::<><><>0<>0<><>::uid://bxpk61uxpovox::::res://inventory/spells_item.gd
+apoc2_abyssFangs.tres::Resource/SpellItem::1803456592781312297::1753366176::0::1::::<><><>0<>0<><>::uid://bxpk61uxpovox::::res://inventory/spells_item.gd
+edic1_innaturalGrowth.tres::Resource/SpellItem::8103423519755591423::1753362875::0::1::::<><><>0<>0<><>::uid://bxpk61uxpovox::::res://inventory/spells_item.gd
+sent1_undeadWhisper.tres::Resource/SpellItem::1297641349731654209::1753366176::0::1::::<><><>0<>0<><>::uid://bxpk61uxpovox::::res://inventory/spells_item.gd
+sent2_notDeadEnough.tres::Resource/SpellItem::1732686120127631878::1753366176::0::1::::<><><>0<>0<><>::uid://bxpk61uxpovox::::res://inventory/spells_item.gd
+sent3_crimsonDusk.tres::Resource/SpellItem::7811119682381174455::1753366176::0::1::::<><><>0<>0<><>::uid://bxpk61uxpovox::::res://inventory/spells_item.gd
+sent4_fireVomit.tres::Resource/SpellItem::1119283825254943804::1753355004::0::1::::<><><>0<>0<><>::uid://bxpk61uxpovox::::res://inventory/spells_item.gd
+sent5_testicularTorsion.tres::Resource/SpellItem::8715114218497360063::1753362390::0::1::::<><><>0<>0<><>::uid://bxpk61uxpovox::::res://inventory/spells_item.gd
+vers1_poisonousOffspring.tres::Resource/SpellItem::1013400627907849813::1753362981::0::1::::<><><>0<>0<><>::uid://bxpk61uxpovox::::res://inventory/spells_item.gd
+::res://scenes/::1760633231
+arruolabile.tscn::PackedScene/PackedScene::3432688648726235298::1760632881::0::1::::<><><>0<>0<><>::uid://c3xpstr4wgauj::::res://scripts/arruolabile.gd<>uid://dqrdh41po8rgm::::res://assets/sprites/Characters/staticRya.png
+bleeding_statue.tscn::PackedScene/PackedScene::7051896655383259595::1753355004::0::1::::<><><>0<>0<><>::uid://3ev234cbvvpl::::res://assets/sprites/aree/Silvera/silvera_tileset.png<>uid://c5vs7egw0vnkm::::res://scripts/BleedingStatue.gd
+chests.tscn::PackedScene/PackedScene::3230679208921999756::1760632880::0::1::::<><><>0<>0<><>::uid://3ev234cbvvpl::::res://assets/sprites/aree/Silvera (Test)/silvera_tileset.png<>uid://bn4fgd007tisx::::res://scripts/crates.gd
+combat_scene.tscn::PackedScene/PackedScene::4037372541702174987::1755861204::0::1::::<><><>0<>0<><>::uid://cx6yrdm234vgg::::res://assets/sprites/enemies/mush village/Mush Guy/body.png<>uid://dckdbj4wryejj::::res://assets/sprites/GUI/dialogue.png<>uid://c2tbs7amwwaf8::::res://assets/sprites/enemies/mush village/Mush Guy/cap.png<>uid://ca4d8v2cbga2b::::res://assets/sprites/Characters/in fight/dude.png<>uid://qp0vc8wso5j2::::res://assets/sprites/fight/redFight.png
+enemy.tscn::PackedScene/PackedScene::688111246536109074::1759489296::0::1::::<><><>0<>0<><>::uid://6vgj6kqbhvwh::::res://scripts/enemy.gd<>uid://cllussbvussx1::::res://assets/sprites/enemies/silvera (Test)/dg6hhbg-afc993d2-733b-4418-99d9-32679df1a72f.png
+game.tscn::PackedScene/PackedScene::5324767164632028665::1760632880::0::1::::<><><>0<>0<><>::uid://25q3snp7np1m::::res://scenes/game_manager.gd<>uid://dxw4jmxai7k11::::res://scenes/player.tscn<>uid://3ev234cbvvpl::::res://assets/sprites/aree/Silvera (Test)/silvera_tileset.png<>uid://ca7ohj3b5ji2w::::res://scripts/lungs_rotting.gd<>uid://bma72xvtupns3::::res://scenes/chests.tscn<>uid://biy754ftpbxef::::res://scenes/landmine.tscn<>uid://bo52465b3c3jq::::res://scenes/arruolabile.tscn<>uid://btsvn145gksej::::res://scenes/location change.tscn<>uid://j2ldeaa36stm::::res://scenes/enemy.tscn<>uid://c7p8ycai74x1t::::res://scenes/bleeding_statue.tscn<>uid://bcgx7bfc1w1wr::::res://scenes/npc.tscn
+game_manager.gd::GDScript/GDScript::1958052551189851460::1760632879::0::1::::<>Node<><>0<>0<><>::
+landmine.tscn::PackedScene/PackedScene::2999474548265028865::1760632881::0::1::::<><><>0<>0<><>::uid://b2cjyyucgidga::::res://scripts/landmine.gd<>uid://chfxb7kbfim21::::res://assets/sprites/aree/Silvera (Test)/landmine.png<>uid://i3fvnhbo0y8c::::res://assets/sprites/aree/Silvera (Test)/spike tileset.png
+location change.tscn::PackedScene/PackedScene::3758467196335578249::1760632881::0::1::::<><><>0<>0<><>::uid://d2voiqvka8x8r::::res://scripts/area_2d.gd
+menu.gdshader::Shader/Shader::4198457597881431177::1760633231::0::1::::<><><>0<>0<><>::
+menu.tscn::PackedScene/PackedScene::2646715204930122919::1760632880::0::1::::<><><>0<>0<><>::uid://dpgr6oj5e2mys::::res://scripts/menu.gd<>uid://dckdbj4wryejj::::res://assets/sprites/GUI/dialogue.png<>uid://cq3i1eonaxo4e::::res://scripts/menuChar1.gd<>uid://b1cjpmuj8y31a::::res://assets/sprites/GUI/menu/Mugshots/Mort/MortMug.png<>uid://c52fxssvhvxxk::::res://assets/sprites/GUI/menu/Mugshots/Mort/MortMug_Low.png<>uid://bmmf8u0ug6ocw::::res://assets/fonts/TrajanPro-Regular.ttf<>uid://rbkygj0hyi7e::::res://assets/sprites/GUI/bloodBar.png<>uid://vw61v5kt6yi4::::res://scripts/inventory.gd
+messages.tscn::PackedScene/PackedScene::993801329067197475::1760632881::0::1::::<><><>0<>0<><>::uid://b0csrp786i7p8::::res://scripts/messages.gd
+npc.tscn::PackedScene/PackedScene::2540638334105993141::1760632881::0::1::::<><><>0<>0<><>::uid://beiw26ac5ad62::::res://scripts/npc.gd<>uid://uql6li32cn7l::::res://assets/sprites/Npc/Mush village/Senzanome.png
+player.tscn::PackedScene/PackedScene::8820799296101398774::1760632880::0::1::::<><><>0<>0<><>::uid://cwoe3shhl2hvj::::res://scripts/player.gd<>uid://d0admbgn0dji2::::res://assets/sprites/Characters/frontSideMort.png<>uid://be52y06f5jomt::::res://assets/sprites/Characters/MortSheet.png<>uid://dckdbj4wryejj::::res://assets/sprites/GUI/dialogue.png<>uid://bdydaoysukv5h::::res://scenes/menu.tscn
+::res://scripts/::1760621620
+area_2d.gd::GDScript/GDScript::9098577959661576535::1759487559::0::1::::<>Area2D<><>0<>0<><>::
+arruolabile.gd::GDScript/GDScript::6786553602328859809::1760359063::0::1::::<>CharacterBody2D<><>0<>0<><>::
+BleedingStatue.gd::GDScript/GDScript::6923008881033237516::1760095755::0::1::::<>StaticBody2D<><>0<>0<><>::
+crates.gd::GDScript/GDScript::3359057102952083091::1753366247::0::1::::<>StaticBody2D<><>0<>0<><>::
+dialogo.gd::GDScript/GDScript::1425222691599562408::1753355004::0::1::::<>NinePatchRect<><>0<>0<><>::
+enemy.gd::GDScript/GDScript::2219588104116503951::1753355004::0::1::::<>CharacterBody2D<><>0<>0<><>::
+game_manager.gd::GDScript/GDScript::6331842457121776135::1758884232::0::1::::<>Node<><>0<>0<><>::
+inventory.gd::GDScript/GDScript::1521311834220759413::1760621620::0::1::::<>Control<><>0<>0<><>::
+inventory_tab_container.gd::GDScript/GDScript::8988595374864968044::1753439982::0::1::::<>TabContainer<><>0<>0<><>::
+label.gd::GDScript/GDScript::5789199063873080369::1753355004::0::1::::<>Label<><>0<>0<><>::
+landmine.gd::GDScript/GDScript::4286238820972409400::1759403427::0::1::::<>Area2D<><>0<>0<><>::
+lungs_rotting.gd::GDScript/GDScript::4839764510022744084::1753355004::0::1::::<>Area2D<><>0<>0<><>::
+menu2.gd::GDScript/GDScript::7287368131521944835::1759919271::0::1::::<>Control<><>0<>0<><>::
+menu.gd::GDScript/GDScript::8225569271261854986::1760442384::0::1::::<>Control<><>0<>0<><>::
+menuChar1.gd::GDScript/GDScript::5954197841604297070::1759232757::0::1::::<>Control<><>0<>0<><>::
+messages.gd::GDScript/GDScript::4146394633343350639::1760356882::0::1::::<>Area2D<><>0<>0<><>::
+npc.gd::GDScript/GDScript::2685076698908823141::1760358580::0::1::::<>CharacterBody2D<><>0<>0<><>::
+oggetti_display.gd::GDScript/GDScript::2942034774140828289::1753355004::0::1::::<>RefCounted<><>0<>0<><>::
+player.gd::GDScript/GDScript::6346191042747905559::1760355660::0::1::::<>CharacterBody2D<><>0<>0<><>::
+Saves.gd::GDScript/GDScript::1037005093564436873::1753355004::0::1::::<>Node2D<><>0<>0<><>::
+::res://styles/::1759750692
+hiddenTab.tres::Theme/Theme::7534432497417538265::1759750692::0::1::::<><><>0<>0<><>::

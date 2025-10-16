@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://c7p8ycai74x1t"]
+
+[ext_resource type="Texture2D" uid="uid://3ev234cbvvpl" path="res://assets/sprites/aree/Silvera/silvera_tileset.png" id="1_5y5fa"]
+[ext_resource type="Script" uid="uid://c5vs7egw0vnkm" path="res://scripts/BleedingStatue.gd" id="2_awu8f"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gl7xy"]
+size = Vector2(67, 54)
+
+[node name="BleedingStatue" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_5y5fa")
+region_enabled = true
+region_rect = Rect2(64, 256, 96, 96)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+script = ExtResource("2_awu8f")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+visible = false
+position = Vector2(-1.5, -3)
+shape = SubResource("RectangleShape2D_gl7xy")

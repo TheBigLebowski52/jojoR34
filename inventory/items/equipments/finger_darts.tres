@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="EquipmentItem" load_steps=2 format=3 uid="uid://b3fj2xdg2hauo"]
+
+[ext_resource type="Script" uid="uid://ddltjw8skga5k" path="res://inventory/equipment_item.gd" id="1_ct7xr"]
+
+[resource]
+script = ExtResource("1_ct7xr")
+body_part = 1
+atk_increase = 195
+def_increase = 0
+id = 3
+name = "Vertebrale"
+description = "Spadone ricavato infinaldo una lama metallica in una colonna vertebrale umana"
+metadata/_custom_type_script = "uid://ddltjw8skga5k"

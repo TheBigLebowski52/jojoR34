@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="SpellItem" load_steps=2 format=3 uid="uid://oo5tbxk7kjof"]
+
+[ext_resource type="Script" uid="uid://bxpk61uxpovox" path="res://inventory/spells_item.gd" id="1_w235a"]
+
+[resource]
+script = ExtResource("1_w235a")
+cash_cost = 50
+fail_chanche = 0
+hp_cost = 0
+humanity_cost = 0
+id = 0
+name = "Edict 1: Innatural Growth"
+description = "Ripristina le ferite"
+metadata/_custom_type_script = "uid://bxpk61uxpovox"

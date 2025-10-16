@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="EquipmentItem" load_steps=2 format=3 uid="uid://c5ado4y7ypxyr"]
+
+[ext_resource type="Script" uid="uid://ddltjw8skga5k" path="res://inventory/equipment_item.gd" id="1_vfoar"]
+
+[resource]
+script = ExtResource("1_vfoar")
+body_part = 1
+atk_increase = 830
+def_increase = 0
+id = 5
+name = "God of Death's Greatsword"
+description = "Una massiccia lastra di pietra affilata e decorata con insisioni sporche di sangue. Le sue dimensioni permettono di infliggere danni estremamente elevati, ma la rendono anche troppo pesante per essere maneggiata con agilità da un comune mortale"
+metadata/_custom_type_script = "uid://ddltjw8skga5k"

@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="SpellItem" load_steps=2 format=3 uid="uid://cf45w4davyf56"]
+
+[ext_resource type="Script" uid="uid://bxpk61uxpovox" path="res://inventory/spells_item.gd" id="1_s6sft"]
+
+[resource]
+script = ExtResource("1_s6sft")
+cash_cost = 300
+fail_chanche = 15
+hp_cost = 0
+humanity_cost = 0
+id = 0
+name = "Verses 1: Poisonous Offspring"
+description = "Vomita larve velenose che possono avvelenare te o il tuo avversario"
+metadata/_custom_type_script = "uid://bxpk61uxpovox"

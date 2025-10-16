@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="EquipmentItem" load_steps=2 format=3 uid="uid://cvekxaajbxe7m"]
+
+[ext_resource type="Script" uid="uid://ddltjw8skga5k" path="res://inventory/equipment_item.gd" id="1_0ob7a"]
+
+[resource]
+script = ExtResource("1_0ob7a")
+body_part = 1
+atk_increase = 195
+def_increase = 0
+id = 16
+name = "Finger darts"
+description = "Dardi da lancio metallici forgiati per assomiglire a dita umane scheletriche"
+metadata/_custom_type_script = "uid://ddltjw8skga5k"

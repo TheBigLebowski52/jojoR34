@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="EquipmentItem" load_steps=2 format=3 uid="uid://8v1sljg6cshh"]
+
+[ext_resource type="Script" uid="uid://ddltjw8skga5k" path="res://inventory/equipment_item.gd" id="1_iuody"]
+
+[resource]
+script = ExtResource("1_iuody")
+body_part = 1
+atk_increase = 270
+def_increase = 0
+id = 2
+name = "Double knight swords"
+description = "Una coppia di lame a doppio filo, una leggermente più corta dell'altra"
+metadata/_custom_type_script = "uid://ddltjw8skga5k"

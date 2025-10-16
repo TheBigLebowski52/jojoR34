@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="EquipmentItem" load_steps=2 format=3 uid="uid://ccaa0eii23867"]
+
+[ext_resource type="Script" uid="uid://ddltjw8skga5k" path="res://inventory/equipment_item.gd" id="1_wwpcm"]
+
+[resource]
+script = ExtResource("1_wwpcm")
+body_part = 1
+atk_increase = 195
+def_increase = 0
+id = 13
+name = "yari"
+description = "Lancia proveniente dalle terre all'estremo oriente di Serica"
+metadata/_custom_type_script = "uid://ddltjw8skga5k"

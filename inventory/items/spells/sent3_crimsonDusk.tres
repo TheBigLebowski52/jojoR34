@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="SpellItem" load_steps=2 format=3 uid="uid://djj0887bd7rxv"]
+
+[ext_resource type="Script" uid="uid://bxpk61uxpovox" path="res://inventory/spells_item.gd" id="1_o3kss"]
+
+[resource]
+script = ExtResource("1_o3kss")
+cash_cost = 0
+fail_chanche = 0
+hp_cost = 83
+humanity_cost = 0
+id = 0
+name = "Sentence 3: Crimson Dusk"
+description = "parla con un cadavere e vedi se risponde"
+metadata/_custom_type_script = "uid://bxpk61uxpovox"

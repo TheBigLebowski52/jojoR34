@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="EquipmentItem" load_steps=2 format=3 uid="uid://xuvt4akcxab"]
+
+[ext_resource type="Script" uid="uid://ddltjw8skga5k" path="res://inventory/equipment_item.gd" id="1_jhuyh"]
+
+[resource]
+script = ExtResource("1_jhuyh")
+body_part = 1
+atk_increase = 0
+def_increase = 17
+id = 4
+name = "Ghoul Mask"
+description = "Maschera di metallo un tempo appartenuta ad uno dei membri di un culto risalente all'anno zero"
+metadata/_custom_type_script = "uid://ddltjw8skga5k"

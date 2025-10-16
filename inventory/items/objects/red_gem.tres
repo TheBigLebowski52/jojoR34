@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="InventoryItem" load_steps=3 format=3 uid="uid://g4pqxidjywgi"]
+
+[ext_resource type="Script" uid="uid://dwf4r7jfwcayd" path="res://inventory/inventory_item.gd" id="1_7mobc"]
+
+[sub_resource type="Texture2DRD" id="Texture2DRD_8w1qc"]
+
+[resource]
+script = ExtResource("1_7mobc")
+id = 203
+name = "Rock"
+texture = SubResource("Texture2DRD_8w1qc")
+description = "It's a rock"
+metadata/_custom_type_script = "uid://dwf4r7jfwcayd"

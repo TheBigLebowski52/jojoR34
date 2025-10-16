@@ -1,0 +1,4 @@
+PlayerInventory
+FoodItem
+SpellItem
+EquipmentItem

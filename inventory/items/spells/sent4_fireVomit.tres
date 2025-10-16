@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="SpellItem" load_steps=2 format=3 uid="uid://p7go846dwudg"]
+
+[ext_resource type="Script" uid="uid://bxpk61uxpovox" path="res://inventory/spells_item.gd" id="1_dfa86"]
+
+[resource]
+script = ExtResource("1_dfa86")
+mana_cost = 4
+name = "Sentence 4: Fire Vomit"
+description = "Vomiti qualsiasi cosa tu abbia mangiato la sera prima ma incendiato"
+metadata/_custom_type_script = "uid://bxpk61uxpovox"

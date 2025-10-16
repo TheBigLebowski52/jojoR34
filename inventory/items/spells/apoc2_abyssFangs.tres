@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="SpellItem" load_steps=2 format=3 uid="uid://0xuwwt3vqrkb"]
+
+[ext_resource type="Script" uid="uid://bxpk61uxpovox" path="res://inventory/spells_item.gd" id="1_bxmjb"]
+
+[resource]
+script = ExtResource("1_bxmjb")
+cash_cost = 0
+fail_chanche = 0
+hp_cost = 0
+humanity_cost = 1
+id = 0
+name = "Apocryphal 2: Abyss' Fangs"
+description = "Infliggi danni estremamente elevati ad un nemico a scelta"
+metadata/_custom_type_script = "uid://bxpk61uxpovox"

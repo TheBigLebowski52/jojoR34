@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="SpellItem" load_steps=2 format=3 uid="uid://yxlc74jf3esc"]
+
+[ext_resource type="Script" uid="uid://bxpk61uxpovox" path="res://inventory/spells_item.gd" id="1_ae7w3"]
+
+[resource]
+script = ExtResource("1_ae7w3")
+cash_cost = 0
+fail_chanche = 0
+hp_cost = 83
+humanity_cost = 0
+id = 0
+name = "Sentence 2:  Not Dead Enough"
+description = "parla con un cadavere e vedi se risponde"
+metadata/_custom_type_script = "uid://bxpk61uxpovox"

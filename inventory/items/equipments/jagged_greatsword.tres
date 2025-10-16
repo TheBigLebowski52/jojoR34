@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="EquipmentItem" load_steps=2 format=3 uid="uid://dtmul76r7kt5q"]
+
+[ext_resource type="Script" uid="uid://ddltjw8skga5k" path="res://inventory/equipment_item.gd" id="1_mkahu"]
+
+[resource]
+script = ExtResource("1_mkahu")
+body_part = 1
+atk_increase = 170
+def_increase = 0
+id = 6
+name = "Throwing Knives"
+description = "Normali coltelli da lancio in ferro"
+metadata/_custom_type_script = "uid://ddltjw8skga5k"

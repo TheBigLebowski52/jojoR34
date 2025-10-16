@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="EquipmentItem" load_steps=2 format=3 uid="uid://18vlwt1ku5at"]
+
+[ext_resource type="Script" uid="uid://ddltjw8skga5k" path="res://inventory/equipment_item.gd" id="1_6wq0o"]
+
+[resource]
+script = ExtResource("1_6wq0o")
+body_part = 1
+atk_increase = 195
+def_increase = 0
+id = 1
+name = "Chu-ko-nu"
+description = "Balestra a ripetizione proveniente dall'est di Serica"
+metadata/_custom_type_script = "uid://ddltjw8skga5k"

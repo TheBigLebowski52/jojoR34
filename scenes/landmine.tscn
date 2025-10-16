@@ -1,0 +1,58 @@
+[gd_scene load_steps=9 format=3 uid="uid://biy754ftpbxef"]
+
+[ext_resource type="Script" uid="uid://b2cjyyucgidga" path="res://scripts/landmine.gd" id="1_vw0b7"]
+[ext_resource type="Texture2D" uid="uid://chfxb7kbfim21" path="res://assets/sprites/aree/Silvera (Test)/landmine.png" id="2_1irre"]
+[ext_resource type="Texture2D" uid="uid://i3fvnhbo0y8c" path="res://assets/sprites/aree/Silvera (Test)/spike tileset.png" id="3_1irre"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_i1xba"]
+size = Vector2(65, 59)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i1xba"]
+atlas = ExtResource("3_1irre")
+region = Rect2(0, 0, 70, 210)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i4jql"]
+atlas = ExtResource("3_1irre")
+region = Rect2(70, 0, 70, 210)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f6w73"]
+atlas = ExtResource("3_1irre")
+region = Rect2(140, 0, 70, 210)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_g5q3r"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": null
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i1xba")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i4jql")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f6w73")
+}],
+"loop": false,
+"name": &"new_animation",
+"speed": 9.0
+}]
+
+[node name="landmine" type="Area2D"]
+collision_mask = 2
+script = ExtResource("1_vw0b7")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, -1.5)
+shape = SubResource("RectangleShape2D_i1xba")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_1irre")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-2, -65)
+sprite_frames = SubResource("SpriteFrames_g5q3r")
+animation = &"new_animation"
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

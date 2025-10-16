@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="EquipmentItem" load_steps=2 format=3 uid="uid://blk5j1rpenrji"]
+
+[ext_resource type="Script" uid="uid://ddltjw8skga5k" path="res://inventory/equipment_item.gd" id="1_rd4f8"]
+
+[resource]
+script = ExtResource("1_rd4f8")
+body_part = 1
+luck_increase = 3
+name = "black sword"
+description = "il fatto che sia nera non la rende piu' scarsa"
+metadata/_custom_type_script = "uid://ddltjw8skga5k"

@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://ofn06w53vbo2"]
+
+[ext_resource type="Script" uid="uid://b0csrp786i7p8" path="res://scripts/messages.gd" id="1_jpdl2"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_f375v"]
+
+[node name="Area2D" type="Area2D"]
+process_mode = 3
+script = ExtResource("1_jpdl2")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+process_mode = 3
+shape = SubResource("RectangleShape2D_f375v")

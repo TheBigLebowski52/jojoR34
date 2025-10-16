@@ -1,0 +1,146 @@
+[gd_scene load_steps=9 format=3 uid="uid://bxry625njpcgp"]
+
+[ext_resource type="Texture2D" uid="uid://cx6yrdm234vgg" path="res://assets/sprites/enemies/mush village/Mush Guy/body.png" id="1_m2d54"]
+[ext_resource type="Texture2D" uid="uid://dckdbj4wryejj" path="res://assets/sprites/GUI/dialogue.png" id="1_ofoda"]
+[ext_resource type="Texture2D" uid="uid://c2tbs7amwwaf8" path="res://assets/sprites/enemies/mush village/Mush Guy/cap.png" id="2_ikfks"]
+[ext_resource type="Texture2D" uid="uid://ca4d8v2cbga2b" path="res://assets/sprites/Characters/in fight/dude.png" id="3_m2d54"]
+[ext_resource type="Texture2D" uid="uid://qp0vc8wso5j2" path="res://assets/sprites/fight/redFight.png" id="5_0vylu"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ikfks"]
+atlas = ExtResource("3_m2d54")
+region = Rect2(0, 0, 192, 256)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_0vylu"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ikfks")
+}],
+"loop": true,
+"name": &"new_animation",
+"speed": 5.0
+}]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_a2e2y"]
+
+[node name="Combat scene - Mush Guy" type="Node2D"]
+
+[node name="Body parts" type="Node" parent="."]
+
+[node name="Control" type="Control" parent="Body parts"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="body" type="TextureButton" parent="Body parts/Control"]
+layout_mode = 0
+offset_left = -221.0
+offset_top = -355.0
+offset_right = -125.0
+offset_bottom = -259.0
+scale = Vector2(4.50244, 4.51065)
+texture_normal = ExtResource("1_m2d54")
+
+[node name="cap" type="TextureButton" parent="Body parts/Control"]
+layout_mode = 0
+offset_left = -230.0
+offset_top = -402.0
+offset_right = -134.0
+offset_bottom = -306.0
+scale = Vector2(4.51368, 4.53425)
+texture_normal = ExtResource("2_ikfks")
+
+[node name="Interface" type="Node" parent="."]
+
+[node name="Dialogo" type="NinePatchRect" parent="Interface"]
+process_mode = 3
+z_index = 999
+offset_left = -954.0
+offset_top = 131.0
+offset_right = 1123.0
+offset_bottom = 525.0
+scale = Vector2(0.918422, 1.02247)
+texture = ExtResource("1_ofoda")
+patch_margin_left = 16
+patch_margin_top = 16
+patch_margin_right = 16
+patch_margin_bottom = 16
+
+[node name="Label" type="Label" parent="Interface/Dialogo"]
+process_mode = 3
+layout_mode = 0
+offset_left = 4.93009
+offset_top = 5.22227
+offset_right = 2079.93
+offset_bottom = 392.222
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 40
+text = "[Rotfront - Plague] stands in front of you"
+autowrap_mode = 3
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Interface/Dialogo"]
+process_mode = 3
+visible = false
+layout_mode = 0
+offset_left = 2.0
+offset_top = 2.0
+offset_right = 2083.0
+offset_bottom = 393.0
+
+[node name="Opt1" type="Button" parent="Interface/Dialogo/VBoxContainer"]
+process_mode = 3
+layout_mode = 2
+theme_override_colors/icon_hover_pressed_color = Color(0.85098, 0.85098, 0.85098, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+text = "CRISTO CRISTO CRISTO"
+alignment = 2
+icon_alignment = 2
+
+[node name="Opt2" type="Button" parent="Interface/Dialogo/VBoxContainer"]
+process_mode = 3
+layout_mode = 2
+theme_override_colors/icon_hover_pressed_color = Color(0.851769, 0.851769, 0.851769, 1)
+theme_override_colors/font_pressed_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 32
+text = "PORCAMADONNA PORCAMADONNA PORCAMADONNA"
+alignment = 2
+icon_alignment = 2
+
+[node name="Party members" type="Node" parent="."]
+
+[node name="pMember1" type="AnimatedSprite2D" parent="Party members"]
+position = Vector2(-699, 85)
+sprite_frames = SubResource("SpriteFrames_0vylu")
+animation = &"new_animation"
+
+[node name="pMember2" type="AnimatedSprite2D" parent="Party members"]
+
+[node name="pMember3" type="AnimatedSprite2D" parent="Party members"]
+
+[node name="pMember4" type="AnimatedSprite2D" parent="Party members"]
+
+[node name="Messages" type="Node" parent="."]
+
+[node name="messaggi" type="Label" parent="Messages"]
+offset_left = -960.0
+offset_top = -540.0
+offset_right = 960.0
+offset_bottom = -501.0
+theme_override_font_sizes/font_size = 32
+theme_override_styles/normal = SubResource("StyleBoxTexture_a2e2y")
+text = "Mushroom Guy is going to release his load"
+
+[node name="mosse" type="Label" parent="Messages"]
+offset_left = -371.0
+offset_top = -411.0
+offset_right = 375.0
+offset_bottom = -388.0
+theme_override_font_sizes/font_size = 32
+text = "Pileus - Spore Shot"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("5_0vylu")

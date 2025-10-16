@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://bo52465b3c3jq"]
+
+[ext_resource type="Script" uid="uid://c3xpstr4wgauj" path="res://scripts/arruolabile.gd" id="1_xf6xs"]
+[ext_resource type="Texture2D" uid="uid://dqrdh41po8rgm" path="res://assets/sprites/Characters/staticRya.png" id="2_eboy2"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bxwgb"]
+size = Vector2(58, 54)
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_xf6xs")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-2, 33)
+shape = SubResource("RectangleShape2D_bxwgb")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_eboy2")

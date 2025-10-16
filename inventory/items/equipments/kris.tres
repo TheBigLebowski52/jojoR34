@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="EquipmentItem" load_steps=2 format=3 uid="uid://ddvpi447l4xp8"]
+
+[ext_resource type="Script" uid="uid://ddltjw8skga5k" path="res://inventory/equipment_item.gd" id="1_ino7m"]
+
+[resource]
+script = ExtResource("1_ino7m")
+body_part = 1
+atk_increase = 195
+def_increase = 0
+id = 9
+name = "Shotel"
+description = "Lama estremamente corva, simile ad un falcetto"
+metadata/_custom_type_script = "uid://ddltjw8skga5k"

@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="FoodItem" load_steps=2 format=3 uid="uid://rm1n7g2e6onf"]
+
+[ext_resource type="Script" uid="uid://bwm5lq6ydnrmv" path="res://inventory/food_item.gd" id="1_qs04u"]
+
+[resource]
+script = ExtResource("1_qs04u")
+health_restore = 25
+fullness = 40
+id = 102
+name = "Borscht "
+description = "Comforting beet soup. Fends off cold and sorrow"
+metadata/_custom_type_script = "uid://bwm5lq6ydnrmv"

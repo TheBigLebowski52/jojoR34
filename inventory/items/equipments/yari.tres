@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="EquipmentItem" load_steps=2 format=3 uid="uid://dgekssy1qb8ox"]
+
+[ext_resource type="Script" uid="uid://ddltjw8skga5k" path="res://inventory/equipment_item.gd" id="1_sojq8"]
+
+[resource]
+script = ExtResource("1_sojq8")
+body_part = 1
+atk_increase = 195
+def_increase = 0
+id = 19
+name = "Macuahuitl"
+description = "Bastone piatto infilzato con dischi di ossidiana, originario delle terre vulcaniche di Aztlan"
+metadata/_custom_type_script = "uid://ddltjw8skga5k"
