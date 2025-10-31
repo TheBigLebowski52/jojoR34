@@ -1,3 +1,8 @@
-res://scenes/game.tscn
+res://scenes/menu.tscn
 res://scenes/menu.gdshader
-res://scenes/game_manager.gd
+res://menu2.tscn
+res://scenes/game.tscn
+res://scenes/player.tscn
+res://menus/scenes/menus/main_menu/main_menu.tscn
+res://menus/scenes/menus/options_menu/master_options_menu_with_tabs.tscn
+res://inventory/player_inventory.gd

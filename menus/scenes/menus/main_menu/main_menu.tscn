@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://bfcipjovjxldj"]
+
+[ext_resource type="PackedScene" uid="uid://c6k5nnpbypshi" path="res://addons/maaacks_menus_template/base/scenes/menus/main_menu/main_menu.tscn" id="1_6pasy"]
+[ext_resource type="Script" uid="uid://bqas6ba2yp1dl" path="res://menus/scenes/menus/main_menu/main_menu.gd" id="2_i8spl"]
+
+[node name="MainMenu" instance=ExtResource("1_6pasy")]
+script = ExtResource("2_i8spl")
+
+[node name="TitleLabel" parent="MenuContainer/TitleMargin/TitleContainer" index="0"]
+text = "DalgemorAgain"

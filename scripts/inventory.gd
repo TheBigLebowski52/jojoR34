@@ -105,12 +105,12 @@ func _update_tab_highlight() -> void:
 	for i in range(1, inventory_container.get_tab_count()):
 		var title : String = TAB_TITLES[i - 1]
 		
-		if i == selected_tab_index and not in_category:
-			# Tab selezionata → evidenziata
-			inventory_container.set_tab_title(i, "[ " + title + " ]")
-		elif not in_category:
+		#if i == selected_tab_index and not in_category:
+			## Tab selezionata → evidenziata
+			#inventory_container.set_tab_title(i, "[ " + title + " ]")
+		#elif not in_category:
 			# Tab normale in home
-			inventory_container.set_tab_title(i, title)
+			#inventory_container.set_tab_title(i, title)
 
 
 func _select_tab(event) -> void:

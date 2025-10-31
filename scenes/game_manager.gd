@@ -7,6 +7,19 @@ var dead : bool = false
 
 var area : int
 var room : int
+var locations = [
+	["Silvera's Backstreets - Golden Church", "A Scar on Top of the World"],
+	["Silvera's Throat - Main Entrance", null],
+	["Enthor's Corpse - Stomach", null],
+	["Dark Depths - Subterranean Lake", null],
+	["Temples of Frenzy - Naos", null],
+	["Syndra's Caves - Altar of Stolen Memories", null],
+	["Eternal Gallows - Blood Cantine", null],
+	["The Anvil - Nuclear Liar", null],
+	["The Downward Spiral - Altar of Chaos", null],
+	["Still, Endless Sea", null]
+]
+
 
 ##sennò si incazza godot
 var char1_ID : int = 3

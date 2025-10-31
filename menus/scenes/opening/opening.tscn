@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3 uid="uid://qk5llv1idaud"]
+
+[ext_resource type="PackedScene" path="res://addons/maaacks_menus_template/base/scenes/opening/opening.tscn" id="1_luwk1"]
+[ext_resource type="Texture2D" path="res://menus/assets/godot_engine_logo/logo_vertical_color_dark.png" id="2_cj7fe"]
+
+[node name="Opening" instance=ExtResource("1_luwk1")]
+images = Array[Texture2D]([ExtResource("2_cj7fe")])

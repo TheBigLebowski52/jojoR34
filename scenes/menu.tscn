@@ -1,4 +1,4 @@
-[gd_scene load_steps=26 format=3 uid="uid://bdydaoysukv5h"]
+[gd_scene load_steps=27 format=3 uid="uid://bdydaoysukv5h"]
 
 [ext_resource type="Script" uid="uid://dpgr6oj5e2mys" path="res://scripts/menu.gd" id="1_vjb58"]
 [ext_resource type="Texture2D" uid="uid://dckdbj4wryejj" path="res://assets/sprites/GUI/dialogue.png" id="2_v86rl"]
@@ -109,6 +109,22 @@ border_width_right = 30
 border_width_bottom = 10
 border_color = Color(0, 0, 0, 1)
 
+[sub_resource type="GDScript" id="GDScript_i6lef"]
+script/source = "extends TabContainer
+## Applies UI page up and page down inputs to tab switching.
+
+func _unhandled_input(event : InputEvent) -> void:
+	if not is_visible_in_tree():
+		return
+	if event.is_action_pressed(\"ui_page_down\"):
+		current_tab = (current_tab+1) % get_tab_count()
+	elif event.is_action_pressed(\"ui_page_up\"):
+		if current_tab == 0:
+			current_tab = get_tab_count()-1
+		else:
+			current_tab = current_tab-1
+"
+
 [node name="Menu" type="Control"]
 process_mode = 3
 top_level = true
@@ -140,13 +156,12 @@ theme_override_styles/tab_selected = SubResource("StyleBoxFlat_mj5lg")
 theme_override_styles/tab_hovered = SubResource("StyleBoxFlat_ufwb2")
 theme_override_styles/tab_unselected = SubResource("StyleBoxFlat_70i5f")
 tab_alignment = 1
-current_tab = 1
+current_tab = 0
 drag_to_rearrange_enabled = true
 use_hidden_tabs_for_min_size = true
 
 [node name="CharacterList" type="NinePatchRect" parent="PanelContainer/GeneraltabContainer"]
 process_mode = 1
-visible = false
 z_index = 999
 layout_mode = 2
 metadata/_tab_index = 0
@@ -425,6 +440,7 @@ offset_right = 1000.0
 offset_bottom = 374.0
 
 [node name="INVENTORY" type="PanelContainer" parent="PanelContainer/GeneraltabContainer"]
+visible = false
 layout_mode = 2
 theme_override_styles/panel = SubResource("StyleBoxFlat_rsfmq")
 script = ExtResource("8_13sgg")
@@ -441,6 +457,7 @@ theme_override_styles/tab_hovered = SubResource("StyleBoxFlat_3dmrc")
 theme_override_styles/tab_unselected = SubResource("StyleBoxFlat_81l6r")
 tab_alignment = 2
 current_tab = 3
+script = SubResource("GDScript_i6lef")
 
 [node name="Item" type="MarginContainer" parent="PanelContainer/GeneraltabContainer/INVENTORY/InventoryTabContainer"]
 visible = false
