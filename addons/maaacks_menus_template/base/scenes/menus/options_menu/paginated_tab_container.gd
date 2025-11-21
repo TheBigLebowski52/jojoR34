@@ -3,7 +3,7 @@ extends TabContainer
 @onready var player: CharacterBody2D = $"../.."
 @onready var location: Label = $CharacterList/Location/location
 @onready var something: Label = $CharacterList/Location/something
-@onready var dialogue: NinePatchRect = $"../../Camera2D/Dialogo"
+@onready var dialogue: NinePatchRect = $"../../Camera2D/DialogueLayer/Dialogo"
 
 var menu_open: bool = false
 

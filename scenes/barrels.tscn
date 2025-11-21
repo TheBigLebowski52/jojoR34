@@ -1,0 +1,31 @@
+[gd_scene load_steps=4 format=3 uid="uid://d0saaivk54eyh"]
+
+[ext_resource type="Texture2D" uid="uid://xa7jbblq4kcl" path="res://assets/sprites/aree/Silvera's Gates/newSilveraTileset.png" id="1_b0h13"]
+[ext_resource type="Script" uid="uid://bn4fgd007tisx" path="res://scripts/crates.gd" id="2_2woah"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0yvts"]
+size = Vector2(64, 96)
+
+[node name="barrels" type="Area2D"]
+collision_mask = 6
+
+[node name="aperta" type="Sprite2D" parent="."]
+texture = ExtResource("1_b0h13")
+region_enabled = true
+region_rect = Rect2(512, 544, 64, 96)
+
+[node name="chiusa" type="Sprite2D" parent="."]
+texture = ExtResource("1_b0h13")
+region_enabled = true
+region_rect = Rect2(576, 544, 64, 96)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+process_mode = 3
+collision_layer = 5
+collision_mask = 2
+script = ExtResource("2_2woah")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+shape = SubResource("RectangleShape2D_0yvts")
+
+[connection signal="body_entered" from="." to="StaticBody2D" method="_on_barrels_body_entered"]

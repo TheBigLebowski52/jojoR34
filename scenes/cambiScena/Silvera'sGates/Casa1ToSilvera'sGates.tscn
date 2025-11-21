@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://7uojkc8888ys"]
+
+[ext_resource type="Script" uid="uid://trio481qtptr" path="res://scripts/cambi scena/casa_1_to_silvera's_gates.gd" id="1_7b8gd"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0ds3t"]
+size = Vector2(64, 64)
+
+[node name="Area2D" type="Area2D"]
+collision_mask = 2
+script = ExtResource("1_7b8gd")
+target_scene = "uid://d4dtd7t4ediqj"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_0ds3t")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

@@ -1,0 +1,31 @@
+[gd_scene load_steps=4 format=3 uid="uid://boo1q21a4l6ck"]
+
+[ext_resource type="Texture2D" uid="uid://xa7jbblq4kcl" path="res://assets/sprites/aree/Silvera's Gates/newSilveraTileset.png" id="1_a1kbd"]
+[ext_resource type="Script" uid="uid://bn4fgd007tisx" path="res://scripts/crates.gd" id="2_5nk3v"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_a1kbd"]
+size = Vector2(64, 64)
+
+[node name="sacks" type="Area2D"]
+
+[node name="chiusa" type="Sprite2D" parent="."]
+texture = ExtResource("1_a1kbd")
+region_enabled = true
+region_rect = Rect2(384, 512, 64, 64)
+
+[node name="aperta" type="Sprite2D" parent="."]
+visible = false
+texture = ExtResource("1_a1kbd")
+region_enabled = true
+region_rect = Rect2(448, 512, 64, 64)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+process_mode = 3
+collision_layer = 5
+collision_mask = 2
+script = ExtResource("2_5nk3v")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+shape = SubResource("RectangleShape2D_a1kbd")
+
+[connection signal="body_entered" from="." to="StaticBody2D" method="_on_sacks_body_entered"]

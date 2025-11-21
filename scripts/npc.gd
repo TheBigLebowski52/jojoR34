@@ -1,8 +1,8 @@
 extends CharacterBody2D
 
-@onready var dialogue := get_node("/root/Game/Player/Camera2D/Dialogo")
+@onready var dialogue := get_node("/root/Game/Player/Camera2D/DialogueLayer/Dialogo")
 @onready var label : Label = dialogue.get_node("Label")
-@onready var type_sound: AudioStreamPlayer = get_node("/root/Game/Player/Camera2D/Dialogo/TypeSound")
+@onready var type_sound: AudioStreamPlayer = get_node("/root/Game/Player/Camera2D/DialogueLayer/Dialogo/TypeSound")
 
 var talked: bool = false #divena true quando ci ho già parlato
 var dialogue_lines := [ #primo dialogo

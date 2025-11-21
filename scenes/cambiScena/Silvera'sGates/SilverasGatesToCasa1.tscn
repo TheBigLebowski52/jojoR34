@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://dg2ye5kpjubwq"]
+
+[ext_resource type="Script" uid="uid://drytrbwtl45iw" path="res://scripts/cambio_scena.gd" id="1_esor5"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_q46nr"]
+size = Vector2(64, 64)
+
+[node name="Area2D" type="Area2D"]
+collision_mask = 2
+script = ExtResource("1_esor5")
+target_scene = "uid://ddelpvsmjbu4e"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_q46nr")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

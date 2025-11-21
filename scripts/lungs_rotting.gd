@@ -1,6 +1,6 @@
 extends Area2D
 
-@onready var message: Label = $"../../Player/Camera2D/Label"
+@onready var message: Label = $"../../Player/Camera2D/DialogueLayer/Label"
 @onready var player: CollisionShape2D = $"../../Player/CollisionShape2D"
 
 

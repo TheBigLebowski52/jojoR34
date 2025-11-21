@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-@onready var dialogue := get_node("/root/Game/Player/Camera2D/Dialogo")
+@onready var dialogue := get_node("/root/Game/Player/Camera2D/DialogueLayer/Dialogo")
 @onready var label : Label = dialogue.get_node("Label")
 @onready var choice_box : Control = dialogue.get_node("ChoiceBox") # Finestra con le scelte
 @onready var yes: Button = get_node("/root/Game/Player/Camera2D/Dialogo/ChoiceBox/PanelContainer/VBoxContainer/yes")

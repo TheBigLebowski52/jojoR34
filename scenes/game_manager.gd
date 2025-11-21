@@ -22,7 +22,7 @@ var locations = [
 
 
 ##sennò si incazza godot
-var char1_ID : int = 3
+var char1_ID : int = 4
 
 var char1_humanity : int
 var char1_name : String 

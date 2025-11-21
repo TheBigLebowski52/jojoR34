@@ -1,6 +1,6 @@
 extends StaticBody2D
 
-@onready var dialogue : NinePatchRect = get_node("/root/Game/Player/Camera2D/Dialogo")
+@onready var dialogue : NinePatchRect = get_node("/root/Game/Player/Camera2D/DialogueLayer/Dialogo")
 @onready var label : Label = dialogue.get_node("Label")
 
 

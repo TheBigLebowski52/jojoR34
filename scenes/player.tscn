@@ -1,20 +1,29 @@
-[gd_scene load_steps=25 format=3 uid="uid://dxw4jmxai7k11"]
+[gd_scene load_steps=29 format=3 uid="uid://dxw4jmxai7k11"]
 
 [ext_resource type="Script" uid="uid://cwoe3shhl2hvj" path="res://scripts/player.gd" id="1_qlg0r"]
 [ext_resource type="Texture2D" uid="uid://6y7vbln5ymsf" path="res://assets/sprites/Characters/in map/Rya/walk animations.png" id="2_dqkch"]
 [ext_resource type="Texture2D" uid="uid://dckdbj4wryejj" path="res://assets/sprites/GUI/dialogue.png" id="4_smehm"]
+[ext_resource type="Texture2D" uid="uid://dre006kvfokjd" path="res://assets/sprites/aree/luce.png" id="5_qlg0r"]
 [ext_resource type="PackedScene" uid="uid://b6qs13w832yj8" path="res://menu2.tscn" id="6_tuyoq"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lnu2h"]
-size = Vector2(64, 63)
+size = Vector2(50, 62)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a38lo"]
+atlas = ExtResource("2_dqkch")
+region = Rect2(0, 128, 64, 128)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4ni07"]
+atlas = ExtResource("2_dqkch")
+region = Rect2(0, 384, 64, 128)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_qlg0r"]
 atlas = ExtResource("2_dqkch")
 region = Rect2(0, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_tuyoq"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_l71n6"]
 atlas = ExtResource("2_dqkch")
-region = Rect2(0, 128, 64, 128)
+region = Rect2(0, 256, 64, 128)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_fjrip"]
 atlas = ExtResource("2_dqkch")
@@ -28,9 +37,9 @@ region = Rect2(128, 128, 64, 128)
 atlas = ExtResource("2_dqkch")
 region = Rect2(192, 128, 64, 128)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_y4r1p"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_tuyoq"]
 atlas = ExtResource("2_dqkch")
-region = Rect2(0, 384, 64, 128)
+region = Rect2(0, 128, 64, 128)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_d2wvv"]
 atlas = ExtResource("2_dqkch")
@@ -44,9 +53,9 @@ region = Rect2(128, 384, 64, 128)
 atlas = ExtResource("2_dqkch")
 region = Rect2(192, 384, 64, 128)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_f1ej7"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_y4r1p"]
 atlas = ExtResource("2_dqkch")
-region = Rect2(0, 0, 64, 128)
+region = Rect2(0, 384, 64, 128)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_oprun"]
 atlas = ExtResource("2_dqkch")
@@ -60,9 +69,9 @@ region = Rect2(128, 0, 64, 128)
 atlas = ExtResource("2_dqkch")
 region = Rect2(192, 0, 64, 128)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_fulsm"]
+[sub_resource type="AtlasTexture" id="AtlasTexture_f1ej7"]
 atlas = ExtResource("2_dqkch")
-region = Rect2(0, 256, 64, 128)
+region = Rect2(0, 0, 64, 128)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_4r5pv"]
 atlas = ExtResource("2_dqkch")
@@ -76,20 +85,45 @@ region = Rect2(128, 256, 64, 128)
 atlas = ExtResource("2_dqkch")
 region = Rect2(192, 256, 64, 128)
 
+[sub_resource type="AtlasTexture" id="AtlasTexture_fulsm"]
+atlas = ExtResource("2_dqkch")
+region = Rect2(0, 256, 64, 128)
+
 [sub_resource type="SpriteFrames" id="SpriteFrames_p57ef"]
 animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a38lo")
+}],
+"loop": true,
+"name": &"idle_e",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4ni07")
+}],
+"loop": true,
+"name": &"idle_n",
+"speed": 5.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_qlg0r")
 }],
 "loop": true,
-"name": &"idle",
+"name": &"idle_s",
 "speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_tuyoq")
+"texture": SubResource("AtlasTexture_l71n6")
+}],
+"loop": true,
+"name": &"idle_w",
+"speed": 5.0
 }, {
+"frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_fjrip")
 }, {
@@ -98,15 +132,15 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_ur7pv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tuyoq")
 }],
 "loop": true,
 "name": &"walk_e",
 "speed": 5.0
 }, {
 "frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_y4r1p")
-}, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_d2wvv")
 }, {
@@ -115,15 +149,15 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_jej6c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y4r1p")
 }],
 "loop": true,
 "name": &"walk_n",
 "speed": 5.0
 }, {
 "frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_f1ej7")
-}, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_oprun")
 }, {
@@ -132,15 +166,15 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_qfm1y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f1ej7")
 }],
 "loop": true,
 "name": &"walk_s",
 "speed": 5.0
 }, {
 "frames": [{
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_fulsm")
-}, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_4r5pv")
 }, {
@@ -149,6 +183,9 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_i4ail")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fulsm")
 }],
 "loop": true,
 "name": &"walk_w",
@@ -174,7 +211,10 @@ animation = &"walk_w"
 [node name="Camera2D" type="Camera2D" parent="."]
 process_mode = 3
 
-[node name="Label" type="Label" parent="Camera2D"]
+[node name="DialogueLayer" type="CanvasLayer" parent="Camera2D"]
+process_mode = 3
+
+[node name="Label" type="Label" parent="Camera2D/DialogueLayer"]
 process_mode = 3
 z_index = 200
 layout_direction = 2
@@ -185,36 +225,35 @@ offset_bottom = -288.0
 theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_font_sizes/font_size = 24
 
-[node name="Dialogo" type="NinePatchRect" parent="Camera2D"]
+[node name="Dialogo" type="NinePatchRect" parent="Camera2D/DialogueLayer"]
 process_mode = 3
 z_index = 999
-offset_left = -634.0
-offset_top = 127.0
-offset_right = 1450.0
-offset_bottom = 522.0
-scale = Vector2(0.608509, 0.574464)
+offset_left = 5.0
+offset_top = 487.0
+offset_right = 1075.0
+offset_bottom = 715.0
 texture = ExtResource("4_smehm")
 patch_margin_left = 16
 patch_margin_top = 16
 patch_margin_right = 16
 patch_margin_bottom = 16
 
-[node name="Label" type="Label" parent="Camera2D/Dialogo"]
+[node name="Label" type="Label" parent="Camera2D/DialogueLayer/Dialogo"]
 process_mode = 3
 layout_mode = 0
 offset_left = 5.0
 offset_top = 5.0
-offset_right = 2080.0
-offset_bottom = 392.0
+offset_right = 1065.0
+offset_bottom = 223.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
-theme_override_font_sizes/font_size = 40
+theme_override_font_sizes/font_size = 28
 autowrap_mode = 3
 
-[node name="TypeSound" type="AudioStreamPlayer" parent="Camera2D/Dialogo"]
+[node name="TypeSound" type="AudioStreamPlayer" parent="Camera2D/DialogueLayer/Dialogo"]
 volume_db = -20.0
 pitch_scale = 0.5
 
-[node name="ChoiceBox" type="Control" parent="Camera2D/Dialogo"]
+[node name="ChoiceBox" type="Control" parent="Camera2D/DialogueLayer/Dialogo"]
 visible = false
 anchors_preset = 0
 offset_left = 1514.0
@@ -222,27 +261,28 @@ offset_top = -237.0
 offset_right = 2084.0
 offset_bottom = -5.0
 
-[node name="PanelContainer" type="PanelContainer" parent="Camera2D/Dialogo/ChoiceBox"]
+[node name="PanelContainer" type="PanelContainer" parent="Camera2D/DialogueLayer/Dialogo/ChoiceBox"]
 layout_mode = 0
 offset_right = 570.0
 offset_bottom = 232.0
 theme_override_styles/panel = SubResource("StyleBoxTexture_qlg0r")
 
-[node name="VBoxContainer" type="VBoxContainer" parent="Camera2D/Dialogo/ChoiceBox/PanelContainer"]
+[node name="VBoxContainer" type="VBoxContainer" parent="Camera2D/DialogueLayer/Dialogo/ChoiceBox/PanelContainer"]
 layout_mode = 2
 
-[node name="yes" type="Button" parent="Camera2D/Dialogo/ChoiceBox/PanelContainer/VBoxContainer"]
+[node name="yes" type="Button" parent="Camera2D/DialogueLayer/Dialogo/ChoiceBox/PanelContainer/VBoxContainer"]
 layout_mode = 2
 flat = true
 
-[node name="no" type="Button" parent="Camera2D/Dialogo/ChoiceBox/PanelContainer/VBoxContainer"]
+[node name="no" type="Button" parent="Camera2D/DialogueLayer/Dialogo/ChoiceBox/PanelContainer/VBoxContainer"]
 layout_mode = 2
 flat = true
 
 [node name="RayCast2D" type="RayCast2D" parent="."]
 position = Vector2(0, 29)
 target_position = Vector2(0, 64)
-collision_mask = 7
+collision_mask = 4
+hit_from_inside = true
 collide_with_areas = true
 
 [node name="Menulayer" type="CanvasLayer" parent="."]
@@ -253,3 +293,10 @@ offset_left = 143.0
 offset_top = 42.0
 offset_right = 142.92
 offset_bottom = 42.0
+
+[node name="luce per buio" type="PointLight2D" parent="."]
+texture = ExtResource("5_qlg0r")
+
+[node name="passi" type="AudioStreamPlayer2D" parent="."]
+volume_db = -20.0
+area_mask = 64

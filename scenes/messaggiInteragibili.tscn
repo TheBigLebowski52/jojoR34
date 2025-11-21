@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://id63noipavng"]
+
+[ext_resource type="Script" uid="uid://bueav0clwdwhd" path="res://scripts/messaggiInteragibili.gd" id="1_33ffe"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_33ffe"]
+size = Vector2(64, 64)
+
+[node name="Area2D" type="Area2D"]
+process_mode = 3
+collision_layer = 4
+collision_mask = 4
+script = ExtResource("1_33ffe")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_33ffe")

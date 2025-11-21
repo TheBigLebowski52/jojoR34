@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://did4h4jhp4732"]
+
+[ext_resource type="Script" uid="uid://8dcx08c3t6mo" path="res://scripts/area_erba.gd" id="1_32eln"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_pnm75"]
+size = Vector2(6176, 5032)
+
+[node name="AreaErba" type="Area2D" groups=["grass"]]
+collision_mask = 2
+script = ExtResource("1_32eln")
+metadata/surface_type = "grass"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_pnm75")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_exited" from="." to="." method="_on_body_exited"]

@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://dmxo8ifedgpbc"]
+
+[ext_resource type="Script" uid="uid://b0kkkaj10qgp4" path="res://scripts/messaggi_dialogo.gd" id="1_clek4"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_guitd"]
+size = Vector2(576, 64)
+
+[node name="messaggiDialogo" type="Area2D"]
+process_mode = 3
+collision_mask = 2
+script = ExtResource("1_clek4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_guitd")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

@@ -2,8 +2,9 @@ extends StaticBody2D
 
 @onready var dialogue := get_node("/root/Game/Player/Camera2D/Dialogo")
 @onready var player := get_node("/root/Game/Player")
-@onready var inventory = player.inventory
-@onready var label : Label = dialogue.get_node("Label")
+@onready var inventory = get_node("res://inventory/player_inventory.gd")
+@onready var label: Label = $Camera2D/Dialogo/Label
+@onready var chiusa: Sprite2D = $"../chiusa"
 
 	
 var chest : bool = false
@@ -127,6 +128,7 @@ func interact():
 	get_tree().paused = true
 	dialogue.visible = true
 	await type_text(label, "You found " + loot)
+	chiusa.visible = false
 	
 func type_text(label: Label, full_text: String, speed: float = 0.01) -> void:
 	label.text = ""
@@ -161,3 +163,11 @@ func _input(event):
 
 
 #
+
+
+func _on_barrels_body_entered(body: Node2D) -> void:
+	pass # Replace with function body.
+
+
+func _on_sacks_body_entered(body: Node2D) -> void:
+	pass # Replace with function body.
