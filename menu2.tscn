@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://b6qs13w832yj8"]
+[gd_scene load_steps=9 format=3 uid="uid://b6qs13w832yj8"]
 
 [ext_resource type="Script" uid="uid://c3mignmhuvvq4" path="res://addons/maaacks_menus_template/base/scenes/menus/options_menu/paginated_tab_container.gd" id="1_kmvv6"]
 [ext_resource type="Script" uid="uid://cq3i1eonaxo4e" path="res://scripts/menuChar1.gd" id="2_pfu3g"]
@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://c52fxssvhvxxk" path="res://assets/sprites/GUI/menu/Mugshots/Mort/MortMug_Low.png" id="4_sgx18"]
 [ext_resource type="FontFile" uid="uid://bmmf8u0ug6ocw" path="res://assets/fonts/TrajanPro-Regular.ttf" id="5_ss8hp"]
 [ext_resource type="Texture2D" uid="uid://rbkygj0hyi7e" path="res://assets/sprites/GUI/bloodBar.png" id="6_23yp1"]
+[ext_resource type="Script" uid="uid://bjdub58l585uf" path="res://inventory.gd" id="7_ooxj4"]
 
 [sub_resource type="Theme" id="Theme_pfu3g"]
 
@@ -307,6 +308,7 @@ offset_bottom = 374.0
 layout_mode = 2
 tab_alignment = 1
 current_tab = 0
+script = ExtResource("7_ooxj4")
 metadata/_tab_index = 1
 
 [node name="Items" type="MarginContainer" parent="Inventory"]

@@ -20,8 +20,10 @@ func collect(item: InventoryItem, amount: int = 1) -> void:
 		target_array = object_slots
 
 	for slot in target_array:
+		
 		if slot.item.id == item.id:
 			slot.count += amount
+			print("oks")
 			return
 
 	var new_slot := InventorySlot.new(item, amount)

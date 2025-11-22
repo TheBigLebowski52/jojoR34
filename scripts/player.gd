@@ -2,9 +2,9 @@ extends CharacterBody2D
 
 @onready var animated_sprite: AnimatedSprite2D = $AnimatedSprite2D
 @onready var ray_cast: RayCast2D = $RayCast2D
-@onready var label: Label = $Camera2D/Label
+@onready var label: Label = $Camera2D/DialogueLayer/Label
 @onready var dialogue: NinePatchRect = $Camera2D/DialogueLayer/Dialogo
-@onready var menu: Control = $Menulayer/Menu
+@onready var menu: Control = $Menulayer/Menu2
 @onready var passi: AudioStreamPlayer2D = $passi
 
 const SPEED := 300.0
@@ -148,3 +148,4 @@ func _try_interact() -> void:
 
 	if (obj.is_in_group("chest") or obj.is_in_group("npc") or obj.is_in_group("save")) and obj.has_method("interact"):
 		obj.interact()
+		

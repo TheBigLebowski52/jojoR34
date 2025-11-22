@@ -6,7 +6,7 @@ extends CharacterBody2D
 @onready var yes: Button = get_node("/root/Game/Player/Camera2D/DialogueLayer/Dialogo/ChoiceBox/PanelContainer/VBoxContainer/yes")
 @onready var no: Button = get_node("/root/Game/Player/Camera2D/DialogueLayer/Dialogo/ChoiceBox/PanelContainer/VBoxContainer/no")
 @onready var type_sound: AudioStreamPlayer = get_node("/root/Game/Player/Camera2D/DialogueLayer/Dialogo/TypeSound")
-
+var is_active_speaker: bool = false
 
 
 var talked: bool = false #diventa true quando ci ho già parlato
@@ -37,6 +37,7 @@ func interact():
 
 	if not dialogue_finished: 
 		if not talked: # prima interazione
+			is_active_speaker = true
 			talked = true
 			dialogue_index = 0
 			get_tree().paused = true
@@ -45,12 +46,13 @@ func interact():
 
 # Gestione input
 func _input(event):
-	if not dialogue.visible:
+	if not dialogue.visible or not is_active_speaker:
 		return
-
 	if event.is_action_pressed("interact"):
 		print("Input rilevato: typing=", typing, ", awaiting=", awaiting_input, ", in_choice=", in_choice)
 
+
+	# ... resto del codice uguale ...
 	if get_tree().paused and not in_choice and event.is_action_pressed("interact"):
 		if typing:
 			# Mostra tutta la frase se ancora in scrittura
@@ -107,6 +109,7 @@ func _resolve_choice() -> void:
 
 # Fine dialogo
 func _end_dialogue():
+	is_active_speaker = false
 	get_tree().paused = false
 	dialogue.visible = false
 	label.text = ""

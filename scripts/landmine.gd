@@ -1,7 +1,7 @@
 extends Area2D
 
 @onready var animated_sprite: AnimatedSprite2D = $AnimatedSprite2D
-@onready var message: Label = $"../../Player/Camera2D/Label"
+@onready var message: Label = $"../../Player/Camera2D/DialogueLayer/Label"
 
 var triggered: bool = false
 

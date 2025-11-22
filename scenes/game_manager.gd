@@ -1,7 +1,6 @@
 extends Node
 
-@onready var message: Label = get_node("/root/Game/Player/Camera2D/Label")
-
+@onready var message: Label = get_node("/root/Game/Player/Camera2D/DialogueLayer/Label")
 
 var dead : bool = false
 

@@ -1,8 +1,8 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1763843316
+::res://::1763852172
 default_bus_layout.tres::AudioBusLayout/AudioBusLayout::7269565048965490654::1763765517::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D/CompressedTexture2D::4558987910203574693::1763765517::1763765517::1::::<><><>0<>0<>f9175933caf2e03cb2e5d266323501a4<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-menu2.tscn::PackedScene/PackedScene::4596445723225761899::1763765821::0::1::::<><><>0<>0<><>::uid://c3mignmhuvvq4::::res://addons/maaacks_menus_template/base/scenes/menus/options_menu/paginated_tab_container.gd<>uid://cq3i1eonaxo4e::::res://scripts/menuChar1.gd<>uid://b1cjpmuj8y31a::::res://assets/sprites/GUI/menu/Mugshots/Mort/MortMug.png<>uid://c52fxssvhvxxk::::res://assets/sprites/GUI/menu/Mugshots/Mort/MortMug_Low.png<>uid://bmmf8u0ug6ocw::::res://assets/fonts/TrajanPro-Regular.ttf<>uid://rbkygj0hyi7e::::res://assets/sprites/GUI/bloodBar.png
+menu2.tscn::PackedScene::4596445723225761899::1763851986::0::1::::<><><>0<>0<><>::uid://c3mignmhuvvq4::::res://addons/maaacks_menus_template/base/scenes/menus/options_menu/paginated_tab_container.gd<>uid://cq3i1eonaxo4e::::res://scripts/menuChar1.gd<>uid://b1cjpmuj8y31a::::res://assets/sprites/GUI/menu/Mugshots/Mort/MortMug.png<>uid://c52fxssvhvxxk::::res://assets/sprites/GUI/menu/Mugshots/Mort/MortMug_Low.png<>uid://bmmf8u0ug6ocw::::res://assets/fonts/TrajanPro-Regular.ttf<>uid://rbkygj0hyi7e::::res://assets/sprites/GUI/bloodBar.png
 messaggiInteragibili.gd::GDScript/GDScript::4658165788939971186::1763765517::0::1::::<>RefCounted<><>0<>0<><>::
 override.cfg::TextFile/TextFile::-1::1763765517::0::1::::<><><>0<>0<><>::
 README.md::TextFile/TextFile::-1::1763765517::0::1::::<><><>0<>0<><>::
@@ -250,19 +250,19 @@ lista armi.txt::TextFile/TextFile::-1::1763765517::0::1::::<><><>0<>0<><>::
 lista effetti di stato.txt::TextFile/TextFile::-1::1763765517::0::1::::<><><>0<>0<><>::
 lista incantesimi.txt::TextFile/TextFile::-1::1763765517::0::1::::<><><>0<>0<><>::
 lista item.txt::TextFile/TextFile::-1::1763765517::0::1::::<><><>0<>0<><>::
-::res://inventory/::1763843316
+::res://inventory/::1763848226
 equipment_item.gd::GDScript/GDScript::7393707639619451478::1763765517::0::1::::EquipmentItem<>InventoryItem<><>0<>0<><>::
 food_item.gd::GDScript/GDScript::3957189819652008009::1763765517::0::1::::FoodItem<>InventoryItem<><>0<>0<><>::
 inventory_item.gd::GDScript/GDScript::8715531346080025475::1763765517::0::1::::InventoryItem<>Resource<><>0<>0<><>::
 inventory_slot.gd::GDScript/GDScript::5570426194524472857::1763765517::0::1::::InventorySlot<>Resource<><>0<>0<><>::
-player_inventory.gd::GDScript/GDScript::1152641945243166276::1763765517::0::1::::PlayerInventory<>Resource<><>0<>0<><>::
-player_inventory_auto_load.tres::Resource/PlayerInventory::3205496400951527528::1763765517::0::1::::<><><>0<>0<><>::uid://qol3yfw77pls::::res://inventory/player_inventory.gd
+player_inventory.gd::GDScript::1152641945243166276::1763848226::0::1::::PlayerInventory<>Node<><>0<>0<><>::
+player_inventory.tres::Resource/PlayerInventory::3205496400951527528::1763765517::0::1::::<><><>0<>0<><>::uid://qol3yfw77pls::::res://inventory/player_inventory.gd
 spells_item.gd::GDScript/GDScript::4032393680786285831::1763765517::0::1::::SpellItem<>InventoryItem<><>0<>0<><>::
 ::res://inventory/items/::1763765517
-::res://inventory/items/equipments/::1763765517
+::res://inventory/items/equipments/::1763847470
 black_iron.tres::Resource/EquipmentItem::3180980715736379462::1763765517::0::1::::<><><>0<>0<><>::uid://ddltjw8skga5k::::res://inventory/equipment_item.gd
 chu-ko-nu.tres::Resource/EquipmentItem::1894330287114356427::1763765517::0::1::::<><><>0<>0<><>::uid://ddltjw8skga5k::::res://inventory/equipment_item.gd
-double_knight_swords.tres::Resource/EquipmentItem::2361195150966770109::1763765517::0::1::::<><><>0<>0<><>::uid://ddltjw8skga5k::::res://inventory/equipment_item.gd
+double_knight_swords.tres::Resource/EquipmentItem::2361195150966770109::1763847470::0::1::::<><><>0<>0<><>::uid://ddltjw8skga5k::::res://inventory/equipment_item.gd
 finger_darts.tres::Resource/EquipmentItem::4362626076679073054::1763765517::0::1::::<><><>0<>0<><>::uid://ddltjw8skga5k::::res://inventory/equipment_item.gd
 ghoul_mask.tres::Resource/EquipmentItem::48733572627156301::1763765517::0::1::::<><><>0<>0<><>::uid://ddltjw8skga5k::::res://inventory/equipment_item.gd
 GOD_greatsword.tres::Resource/EquipmentItem::6878715390359224341::1763765517::0::1::::<><><>0<>0<><>::uid://ddltjw8skga5k::::res://inventory/equipment_item.gd
@@ -293,16 +293,16 @@ deer_antlers.tres::Resource/InventoryItem::2607612313736742132::1763765517::0::1
 human_skull.tres::Resource/InventoryItem::6143640509854844109::1763765517::0::1::::<><><>0<>0<><>::uid://dwf4r7jfwcayd::::res://inventory/inventory_item.gd
 red_gem.tres::Resource/InventoryItem::481940564834693980::1763765517::0::1::::<><><>0<>0<><>::uid://dwf4r7jfwcayd::::res://inventory/inventory_item.gd
 rock.tres::Resource/InventoryItem::558839480778502256::1763765517::0::1::::<><><>0<>0<><>::uid://dwf4r7jfwcayd::::res://inventory/inventory_item.gd
-::res://inventory/items/spells/::1763765517
-apoc1_devourYourself.tres::Resource/SpellItem::5185514865533579775::1763765517::0::1::::<><><>0<>0<><>::uid://bxpk61uxpovox::::res://inventory/spells_item.gd
-apoc2_abyssFangs.tres::Resource/SpellItem::1803456592781312297::1763765517::0::1::::<><><>0<>0<><>::uid://bxpk61uxpovox::::res://inventory/spells_item.gd
-edic1_innaturalGrowth.tres::Resource/SpellItem::8103423519755591423::1763765517::0::1::::<><><>0<>0<><>::uid://bxpk61uxpovox::::res://inventory/spells_item.gd
-sent1_undeadWhisper.tres::Resource/SpellItem::1297641349731654209::1763765517::0::1::::<><><>0<>0<><>::uid://bxpk61uxpovox::::res://inventory/spells_item.gd
-sent2_notDeadEnough.tres::Resource/SpellItem::1732686120127631878::1763765517::0::1::::<><><>0<>0<><>::uid://bxpk61uxpovox::::res://inventory/spells_item.gd
-sent3_crimsonDusk.tres::Resource/SpellItem::7811119682381174455::1763765517::0::1::::<><><>0<>0<><>::uid://bxpk61uxpovox::::res://inventory/spells_item.gd
-sent4_fireVomit.tres::Resource/SpellItem::1119283825254943804::1763765517::0::1::::<><><>0<>0<><>::uid://bxpk61uxpovox::::res://inventory/spells_item.gd
-sent5_testicularTorsion.tres::Resource/SpellItem::8715114218497360063::1763765517::0::1::::<><><>0<>0<><>::uid://bxpk61uxpovox::::res://inventory/spells_item.gd
-vers1_poisonousOffspring.tres::Resource/SpellItem::1013400627907849813::1763765517::0::1::::<><><>0<>0<><>::uid://bxpk61uxpovox::::res://inventory/spells_item.gd
+::res://inventory/items/spells/::1763847470
+apoc1_devourYourself.tres::Resource/SpellItem::5185514865533579775::1763847470::0::1::::<><><>0<>0<><>::uid://bxpk61uxpovox::::res://inventory/spells_item.gd
+apoc2_abyssFangs.tres::Resource/SpellItem::1803456592781312297::1763847470::0::1::::<><><>0<>0<><>::uid://bxpk61uxpovox::::res://inventory/spells_item.gd
+edic1_innaturalGrowth.tres::Resource/SpellItem::8103423519755591423::1763847470::0::1::::<><><>0<>0<><>::uid://bxpk61uxpovox::::res://inventory/spells_item.gd
+sent1_undeadWhisper.tres::Resource/SpellItem::1297641349731654209::1763847470::0::1::::<><><>0<>0<><>::uid://bxpk61uxpovox::::res://inventory/spells_item.gd
+sent2_notDeadEnough.tres::Resource/SpellItem::1732686120127631878::1763847470::0::1::::<><><>0<>0<><>::uid://bxpk61uxpovox::::res://inventory/spells_item.gd
+sent3_crimsonDusk.tres::Resource/SpellItem::7811119682381174455::1763847470::0::1::::<><><>0<>0<><>::uid://bxpk61uxpovox::::res://inventory/spells_item.gd
+sent4_fireVomit.tres::Resource/SpellItem::1119283825254943804::1763847470::0::1::::<><><>0<>0<><>::uid://bxpk61uxpovox::::res://inventory/spells_item.gd
+sent5_testicularTorsion.tres::Resource/SpellItem::8715114218497360063::1763847470::0::1::::<><><>0<>0<><>::uid://bxpk61uxpovox::::res://inventory/spells_item.gd
+vers1_poisonousOffspring.tres::Resource/SpellItem::1013400627907849813::1763847470::0::1::::<><><>0<>0<><>::uid://bxpk61uxpovox::::res://inventory/spells_item.gd
 ::res://menus/::1763765517
 ATTRIBUTION.md::TextFile/TextFile::-1::1763765517::0::1::::<><><>0<>0<><>::
 ::res://menus/assets/::1763765517
@@ -367,8 +367,8 @@ main_menu_options_overlaid_menu.tscn::PackedScene/PackedScene::28634288161424150
 pause_menu.gd::GDScript/GDScript::6359292132532847406::1763765517::0::1::::<>OverlaidMenu<><>0<>1<><>::
 pause_menu.tscn::PackedScene/PackedScene::2729296052351080237::1763765517::0::1::::<><><>0<>0<><>::res://addons/maaacks_menus_template/base/scenes/overlaid_menu/overlaid_menu.tscn<>res://menus/scenes/overlaid_menus/pause_menu.gd<>res://menus/scenes/overlaid_menus/pause_menu_options_overlaid_menu.tscn
 pause_menu_options_overlaid_menu.tscn::PackedScene/PackedScene::5476091977596360468::1763765517::0::1::::<><><>0<>0<><>::res://addons/maaacks_menus_template/base/scenes/overlaid_menu/overlaid_menu_container.tscn<>res://menus/scenes/menus/options_menu/mini_options_menu.tscn
-::res://scenes/::1763843354
-arruolabile.tscn::PackedScene/PackedScene::3432688648726235298::1763765517::0::1::::<><><>0<>0<><>::uid://c3xpstr4wgauj::::res://scripts/arruolabile.gd<>uid://dqrdh41po8rgm::::res://assets/sprites/Characters/staticRya.png
+::res://scenes/::1763851986
+arruolabile.tscn::PackedScene::3432688648726235298::1763851986::0::1::::<><><>0<>0<><>::uid://c3xpstr4wgauj::::res://scripts/arruolabile.gd<>uid://dqrdh41po8rgm::::res://assets/sprites/Characters/staticRya.png
 AzothagorathTileset.png::CompressedTexture2D/CompressedTexture2D::4858621836864270217::1763765517::1763765517::1::::<><><>0<>0<>d2d014aa229d6f00cc76bd5ee198b994<>res://.godot/imported/AzothagorathTileset.png-6181259db0290f4c2f95aa8b8ef2660b.ctex::
 barrels.tscn::PackedScene/PackedScene::8951142394726472207::1763765517::0::1::::<><><>0<>0<><>::uid://xa7jbblq4kcl::::res://assets/sprites/aree/Silvera's Gates/newSilveraTileset.png<>uid://bn4fgd007tisx::::res://scripts/crates.gd
 bleeding_statue.tscn::PackedScene/PackedScene::7051896655383259595::1763765517::0::1::::<><><>0<>0<><>::uid://3ev234cbvvpl::::res://assets/sprites/aree/Silvera (Test)/silvera_tileset.png<>uid://c5vs7egw0vnkm::::res://scripts/BleedingStatue.gd
@@ -376,20 +376,20 @@ casa2.tscn::PackedScene/PackedScene::4963418717091234572::1763765823::0::1::::<>
 casa3.tscn::PackedScene/PackedScene::4666538486991874980::1763765822::0::1::::<><><>0<>0<><>::uid://dxw4jmxai7k11::::res://scenes/player.tscn<>uid://xa7jbblq4kcl::::res://assets/sprites/aree/Silvera's Gates/newSilveraTileset.png<>uid://bma72xvtupns3::::res://scenes/chests.tscn<>uid://d0saaivk54eyh::::res://scenes/barrels.tscn<>uid://dg2ye5kpjubwq::::res://scenes/cambiScena/Silvera'sGates/SilverasGatesToCasa1.tscn<>uid://did4h4jhp4732::::res://scenes/suonoPassi.tscn
 casa4.tscn::PackedScene/PackedScene::2523277271530782771::1763765822::0::1::::<><><>0<>0<><>::uid://dxw4jmxai7k11::::res://scenes/player.tscn<>uid://xa7jbblq4kcl::::res://assets/sprites/aree/Silvera's Gates/newSilveraTileset.png<>uid://d0saaivk54eyh::::res://scenes/barrels.tscn<>uid://bsff6jt2rsbba::::res://assets/sprites/aree/TANTICADAVERI.png<>uid://dg2ye5kpjubwq::::res://scenes/cambiScena/Silvera'sGates/SilverasGatesToCasa1.tscn<>uid://did4h4jhp4732::::res://scenes/suonoPassi.tscn
 casa_1.tscn::PackedScene/PackedScene::7378781898192792006::1763765822::0::1::::<><><>0<>0<><>::uid://dxw4jmxai7k11::::res://scenes/player.tscn<>uid://xa7jbblq4kcl::::res://assets/sprites/aree/Silvera's Gates/newSilveraTileset.png<>uid://bma72xvtupns3::::res://scenes/chests.tscn<>uid://boo1q21a4l6ck::::res://scenes/sacks.tscn<>uid://7uojkc8888ys::::res://scenes/cambiScena/Silvera'sGates/Casa1ToSilvera'sGates.tscn<>uid://did4h4jhp4732::::res://scenes/suonoPassi.tscn
-chests.tscn::PackedScene/PackedScene::3230679208921999756::1763765517::0::1::::<><><>0<>0<><>::uid://xa7jbblq4kcl::::res://assets/sprites/aree/Silvera's Gates/newSilveraTileset.png<>uid://bn4fgd007tisx::::res://scripts/crates.gd
+chests.tscn::PackedScene::3230679208921999756::1763851986::0::1::::<><><>0<>0<><>::uid://xa7jbblq4kcl::::res://assets/sprites/aree/Silvera's Gates/newSilveraTileset.png<>uid://bn4fgd007tisx::::res://scripts/crates.gd
 combat_scene.tscn::PackedScene/PackedScene::4037372541702174987::1763765517::0::1::::<><><>0<>0<><>::uid://cx6yrdm234vgg::::res://assets/sprites/enemies/mush village/Mush Guy/body.png<>uid://dckdbj4wryejj::::res://assets/sprites/GUI/dialogue.png<>uid://c2tbs7amwwaf8::::res://assets/sprites/enemies/mush village/Mush Guy/cap.png<>uid://ca4d8v2cbga2b::::res://assets/sprites/Characters/in fight/dude.png<>uid://qp0vc8wso5j2::::res://assets/sprites/fight/redFight.png
 enemy.tscn::PackedScene/PackedScene::688111246536109074::1763765517::0::1::::<><><>0<>0<><>::uid://6vgj6kqbhvwh::::res://scripts/enemy.gd<>uid://cllussbvussx1::::res://assets/sprites/enemies/silvera (Test)/dg6hhbg-afc993d2-733b-4418-99d9-32679df1a72f.png
-game.tscn::PackedScene::5324767164632028665::1763842947::0::1::::<><><>0<>0<><>::uid://25q3snp7np1m::::res://scenes/game_manager.gd<>uid://bnxapuvhhw274::::res://scripts/global.gd<>uid://dxw4jmxai7k11::::res://scenes/player.tscn<>uid://3ev234cbvvpl::::res://assets/sprites/aree/Silvera (Test)/silvera_tileset.png<>uid://ca7ohj3b5ji2w::::res://scripts/lungs_rotting.gd<>uid://bma72xvtupns3::::res://scenes/chests.tscn<>uid://biy754ftpbxef::::res://scenes/landmine.tscn<>uid://bo52465b3c3jq::::res://scenes/arruolabile.tscn<>uid://btsvn145gksej::::res://scenes/location change.tscn<>uid://j2ldeaa36stm::::res://scenes/enemy.tscn<>uid://c7p8ycai74x1t::::res://scenes/bleeding_statue.tscn<>uid://bcgx7bfc1w1wr::::res://scenes/npc.tscn
-game_manager.gd::GDScript/GDScript::1958052551189851460::1763765517::0::1::::<>Node<><>0<>0<><>::
+game.tscn::PackedScene::5324767164632028665::1763851986::0::1::::<><><>0<>0<><>::uid://25q3snp7np1m::::res://scenes/game_manager.gd<>uid://bnxapuvhhw274::::res://scripts/global.gd<>uid://dxw4jmxai7k11::::res://scenes/player.tscn<>uid://3ev234cbvvpl::::res://assets/sprites/aree/Silvera (Test)/silvera_tileset.png<>uid://ca7ohj3b5ji2w::::res://scripts/lungs_rotting.gd<>uid://bma72xvtupns3::::res://scenes/chests.tscn<>uid://biy754ftpbxef::::res://scenes/landmine.tscn<>uid://bo52465b3c3jq::::res://scenes/arruolabile.tscn<>uid://btsvn145gksej::::res://scenes/location change.tscn<>uid://j2ldeaa36stm::::res://scenes/enemy.tscn<>uid://c7p8ycai74x1t::::res://scenes/bleeding_statue.tscn<>uid://bcgx7bfc1w1wr::::res://scenes/npc.tscn
+game_manager.gd::GDScript::1958052551189851460::1763849562::0::1::::<>Node<><>0<>0<><>::
 landmine.tscn::PackedScene/PackedScene::2999474548265028865::1763765517::0::1::::<><><>0<>0<><>::uid://b2cjyyucgidga::::res://scripts/landmine.gd<>uid://chfxb7kbfim21::::res://assets/sprites/aree/Silvera (Test)/landmine.png<>uid://i3fvnhbo0y8c::::res://assets/sprites/aree/Silvera (Test)/spike tileset.png
 location change.tscn::PackedScene/PackedScene::3758467196335578249::1763765517::0::1::::<><><>0<>0<><>::uid://d2voiqvka8x8r::::res://scripts/area_2d.gd
-menu.gdshader::Shader::4198457597881431177::1763843354::0::1::::<><><>0<>0<><>::
+menu.gdshader::Shader::4198457597881431177::1763851986::0::1::::<><><>0<>0<><>::
 menu.tscn::PackedScene/PackedScene::2646715204930122919::1763765517::0::1::::<><><>0<>0<><>::uid://dpgr6oj5e2mys::::res://scripts/menu.gd<>uid://dckdbj4wryejj::::res://assets/sprites/GUI/dialogue.png<>uid://cq3i1eonaxo4e::::res://scripts/menuChar1.gd<>uid://b1cjpmuj8y31a::::res://assets/sprites/GUI/menu/Mugshots/Mort/MortMug.png<>uid://c52fxssvhvxxk::::res://assets/sprites/GUI/menu/Mugshots/Mort/MortMug_Low.png<>uid://bmmf8u0ug6ocw::::res://assets/fonts/TrajanPro-Regular.ttf<>uid://rbkygj0hyi7e::::res://assets/sprites/GUI/bloodBar.png<>uid://vw61v5kt6yi4::::res://scripts/inventory.gd
 messages.tscn::PackedScene/PackedScene::993801329067197475::1763765517::0::1::::<><><>0<>0<><>::uid://b0csrp786i7p8::::res://scripts/messages.gd
 messaggiInteragibili.tscn::PackedScene/PackedScene::569636816185902724::1763765821::0::1::::<><><>0<>0<><>::uid://bueav0clwdwhd::::res://scripts/messaggiInteragibili.gd
 messaggi_dialogo.tscn::PackedScene/PackedScene::8049918260273485824::1763765821::0::1::::<><><>0<>0<><>::uid://b0kkkaj10qgp4::::res://scripts/messaggi_dialogo.gd
-npc.tscn::PackedScene/PackedScene::2540638334105993141::1763765517::0::1::::<><><>0<>0<><>::uid://beiw26ac5ad62::::res://scripts/npc.gd<>uid://uql6li32cn7l::::res://assets/sprites/Npc/Mush village/Senzanome.png
-player.tscn::PackedScene::8820799296101398774::1763843354::0::1::::<><><>0<>0<><>::uid://cwoe3shhl2hvj::::res://scripts/player.gd<>uid://6y7vbln5ymsf::::res://assets/sprites/Characters/in map/Rya/walk animations.png<>uid://dckdbj4wryejj::::res://assets/sprites/GUI/dialogue.png<>uid://dre006kvfokjd::::res://assets/sprites/aree/luce.png<>uid://b6qs13w832yj8::::res://menu2.tscn
+npc.tscn::PackedScene::2540638334105993141::1763851986::0::1::::<><><>0<>0<><>::uid://beiw26ac5ad62::::res://scripts/npc.gd<>uid://uql6li32cn7l::::res://assets/sprites/Npc/Mush village/Senzanome.png
+player.tscn::PackedScene::8820799296101398774::1763851986::0::1::::<><><>0<>0<><>::uid://cwoe3shhl2hvj::::res://scripts/player.gd<>uid://6y7vbln5ymsf::::res://assets/sprites/Characters/in map/Rya/walk animations.png<>uid://dckdbj4wryejj::::res://assets/sprites/GUI/dialogue.png<>uid://dre006kvfokjd::::res://assets/sprites/aree/luce.png<>uid://b6qs13w832yj8::::res://menu2.tscn
 sacks.tscn::PackedScene/PackedScene::3399574456031388402::1763765517::0::1::::<><><>0<>0<><>::uid://xa7jbblq4kcl::::res://assets/sprites/aree/Silvera's Gates/newSilveraTileset.png<>uid://bn4fgd007tisx::::res://scripts/crates.gd
 silvera's_gates.tscn::PackedScene::9202092341510288001::1763840546::0::1::::<><><>0<>0<><>::uid://dxw4jmxai7k11::::res://scenes/player.tscn<>uid://bu3vpr43m6hc5::::res://scripts/silvera's_gates.gd<>uid://xa7jbblq4kcl::::res://assets/sprites/aree/Silvera's Gates/newSilveraTileset.png<>uid://25q3snp7np1m::::res://scenes/game_manager.gd<>uid://csf6y1qitk13c::::res://assets/sprites/aree/Silvera's Gates/newSilveraTileset2.png<>uid://bnxapuvhhw274::::res://scripts/global.gd<>uid://6fkdtt1787en::::res://assets/sprites/aree/Silvera's Gates/newSilveraTileset3.png<>uid://dhw4rpkt6fljj::::res://assets/sprites/aree/Azothagorath/AzothagorathTileset.png<>uid://bma72xvtupns3::::res://scenes/chests.tscn<>uid://boo1q21a4l6ck::::res://scenes/sacks.tscn<>uid://dmxo8ifedgpbc::::res://scenes/messaggi_dialogo.tscn<>uid://d0saaivk54eyh::::res://scenes/barrels.tscn<>uid://dg2ye5kpjubwq::::res://scenes/cambiScena/Silvera'sGates/SilverasGatesToCasa1.tscn<>uid://id63noipavng::::res://scenes/messaggiInteragibili.tscn<>uid://did4h4jhp4732::::res://scenes/suonoPassi.tscn
 suonoPassi.tscn::PackedScene/PackedScene::7728740764212968011::1763765517::0::1::::<><><>0<>0<><>::uid://8dcx08c3t6mo::::res://scripts/area_erba.gd
@@ -397,13 +397,13 @@ suonoPassi.tscn::PackedScene/PackedScene::7728740764212968011::1763765517::0::1:
 ::res://scenes/cambiScena/Silvera'sGates/::1763765517
 Casa1ToSilvera'sGates.tscn::PackedScene/PackedScene::2288197191410020734::1763765517::0::1::::<><><>0<>0<><>::uid://trio481qtptr::::res://scripts/cambi scena/casa_1_to_silvera's_gates.gd
 SilverasGatesToCasa1.tscn::PackedScene/PackedScene::7637599255112021008::1763765517::0::1::::<><><>0<>0<><>::uid://drytrbwtl45iw::::res://scripts/cambio_scena.gd
-::res://scripts/::1763843354
+::res://scripts/::1763851861
 area_2d.gd::GDScript/GDScript::9098577959661576535::1763765517::0::1::::<>Area2D<><>0<>0<><>::
 area_erba.gd::GDScript/GDScript::2322588844753964154::1763765517::0::1::::<>Area2D<><>0<>0<><>::
-arruolabile.gd::GDScript/GDScript::6786553602328859809::1763765517::0::1::::<>CharacterBody2D<><>0<>0<><>::
+arruolabile.gd::GDScript::6786553602328859809::1763851068::0::1::::<>CharacterBody2D<><>0<>0<><>::
 BleedingStatue.gd::GDScript/GDScript::6923008881033237516::1763765517::0::1::::<>StaticBody2D<><>0<>0<><>::
 cambio_scena.gd::GDScript/GDScript::8403201527770429206::1763765517::0::1::::<>Area2D<><>0<>0<><>::
-crates.gd::GDScript::3359057102952083091::1763842946::0::1::::<>StaticBody2D<><>0<>0<><>::
+crates.gd::GDScript::3359057102952083091::1763851861::0::1::::<>StaticBody2D<><>0<>0<><>::
 dialogo.gd::GDScript/GDScript::1425222691599562408::1763765517::0::1::::<>NinePatchRect<><>0<>0<><>::
 enemy.gd::GDScript/GDScript::2219588104116503951::1763765517::0::1::::<>CharacterBody2D<><>0<>0<><>::
 game_manager.gd::GDScript/GDScript::6331842457121776135::1763765517::0::1::::<>Node<><>0<>0<><>::
@@ -411,17 +411,17 @@ global.gd::GDScript/GDScript::3346384209475665289::1763765517::0::1::::<>Node<><
 inventory.gd::GDScript/GDScript::1521311834220759413::1763765517::0::1::::<>Control<><>0<>0<><>::
 inventory_tab_container.gd::GDScript/GDScript::8988595374864968044::1763765517::0::1::::<>TabContainer<><>0<>0<><>::
 label.gd::GDScript/GDScript::5789199063873080369::1763765517::0::1::::<>Label<><>0<>0<><>::
-landmine.gd::GDScript/GDScript::4286238820972409400::1763765517::0::1::::<>Area2D<><>0<>0<><>::
+landmine.gd::GDScript::4286238820972409400::1763849653::0::1::::<>Area2D<><>0<>0<><>::
 lungs_rotting.gd::GDScript/GDScript::4839764510022744084::1763765517::0::1::::<>Area2D<><>0<>0<><>::
 menu2.gd::GDScript/GDScript::7287368131521944835::1763765517::0::1::::<>Control<><>0<>0<><>::
-menu.gd::GDScript/GDScript::8225569271261854986::1763765517::0::1::::<>Control<><>0<>0<><>::
+menu.gd::GDScript::8225569271261854986::1763846307::0::1::::<>Control<><>0<>0<><>::
 menuChar1.gd::GDScript/GDScript::5954197841604297070::1763765517::0::1::::<>Control<><>0<>0<><>::
 messages.gd::GDScript/GDScript::4146394633343350639::1763765517::0::1::::<>Area2D<><>0<>0<><>::
 messaggiInteragibili.gd::GDScript/GDScript::3798493885844685729::1763765517::0::1::::<>Area2D<><>0<>0<><>::
 messaggi_dialogo.gd::GDScript/GDScript::4162410595169827523::1763765517::0::1::::<>Area2D<><>0<>0<><>::
-npc.gd::GDScript/GDScript::2685076698908823141::1763765517::0::1::::<>CharacterBody2D<><>0<>0<><>::
+npc.gd::GDScript::2685076698908823141::1763850022::0::1::::<>CharacterBody2D<><>0<>0<><>::
 oggetti_display.gd::GDScript/GDScript::2942034774140828289::1763765517::0::1::::<>RefCounted<><>0<>0<><>::
-player.gd::GDScript::6346191042747905559::1763843354::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player.gd::GDScript::6346191042747905559::1763850685::0::1::::<>CharacterBody2D<><>0<>0<><>::
 Saves.gd::GDScript/GDScript::1037005093564436873::1763765517::0::1::::<>Node2D<><>0<>0<><>::
 silvera's_gates.gd::GDScript/GDScript::3849302916309826678::1763765517::0::1::::<>Node2D<><>0<>0<><>::
 ::res://scripts/cambi scena/::1763765517
