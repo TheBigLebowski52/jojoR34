@@ -9,7 +9,7 @@ extends CharacterBody2D
 
 const SPEED := 300.0
 
-var inventory: PlayerInventory = preload("res://inventory/player_inventory.tres")
+
 var last_direction := "s"
 var current_surface := "default" # default = pietra
 

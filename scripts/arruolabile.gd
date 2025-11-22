@@ -3,9 +3,11 @@ extends CharacterBody2D
 @onready var dialogue := get_node("/root/Game/Player/Camera2D/DialogueLayer/Dialogo")
 @onready var label : Label = dialogue.get_node("Label")
 @onready var choice_box : Control = dialogue.get_node("ChoiceBox") # Finestra con le scelte
-@onready var yes: Button = get_node("/root/Game/Player/Camera2D/Dialogo/ChoiceBox/PanelContainer/VBoxContainer/yes")
-@onready var no: Button = get_node("/root/Game/Player/Camera2D/Dialogo/ChoiceBox/PanelContainer/VBoxContainer/no")
-@onready var type_sound: AudioStreamPlayer = get_node("/root/Game/Player/Camera2D/Dialogo/TypeSound")
+@onready var yes: Button = get_node("/root/Game/Player/Camera2D/DialogueLayer/Dialogo/ChoiceBox/PanelContainer/VBoxContainer/yes")
+@onready var no: Button = get_node("/root/Game/Player/Camera2D/DialogueLayer/Dialogo/ChoiceBox/PanelContainer/VBoxContainer/no")
+@onready var type_sound: AudioStreamPlayer = get_node("/root/Game/Player/Camera2D/DialogueLayer/Dialogo/TypeSound")
+
+
 
 var talked: bool = false #diventa true quando ci ho già parlato
 var dialogue_lines := [ #primo dialogo
@@ -133,14 +135,13 @@ func type_text(label_t: Label, full_text: String, speed: float = 0.0) -> void:
 		if not typing:
 			break
 		label_t.text += full_text[i]
-		
-		# Suono per lettere
+	
+		# Play sound for letters
 		var c := full_text[i]
-		if c != " " and c != "\n" and c != "\t":
+		if type_sound and c != " " and c != "\n" and c != "\t":
 			if type_sound.playing:
 				type_sound.stop()
 			type_sound.play()
-
 		await get_tree().create_timer(speed).timeout
 
 	typing = false

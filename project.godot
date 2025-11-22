@@ -24,6 +24,7 @@ SceneLoader="*res://addons/maaacks_menus_template/base/scenes/autoloads/scene_lo
 ProjectMusicController="*res://addons/maaacks_menus_template/base/scenes/autoloads/project_music_controller.tscn"
 ProjectUISoundController="*res://addons/maaacks_menus_template/base/scenes/autoloads/project_ui_sound_controller.tscn"
 Global="*res://scripts/global.gd"
+Inventory="*res://inventory/player_inventory.gd"
 
 [display]
 

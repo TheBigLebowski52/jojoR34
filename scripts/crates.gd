@@ -1,12 +1,10 @@
 extends StaticBody2D
 
-@onready var dialogue := get_node("/root/Game/Player/Camera2D/Dialogo")
+@onready var dialogue := get_node("/root/Game/Player/Camera2D/DialogueLayer/Dialogo")
 @onready var player := get_node("/root/Game/Player")
-@onready var inventory = get_node("res://inventory/player_inventory.gd")
-@onready var label: Label = $Camera2D/Dialogo/Label
+@onready var label: Label = get_node("/root/Game/Player/Camera2D/DialogueLayer/Dialogo/Label")
 @onready var chiusa: Sprite2D = $"../chiusa"
 
-	
 var chest : bool = false
 var typing : bool = false
 
@@ -16,117 +14,73 @@ func _ready():
 	if dialogue == null:
 		print ("si ma porcoddio")
 
-func interact():
+func interact() -> void:
 	var roll : float = randi() % 100 + 1
 	var loot := ""
-	if roll <= 1:
-		var cash = randi_range(5, 20)
-		loot = str(cash) + " obsidian discs"
-	elif roll <= 3:
-		loot = "human flesh"
-	elif roll <= 5:
-		loot = "a shotel"
-	elif roll <= 7:
-		loot = "a chestplate"
-	elif roll <= 9:
-		loot = "a human heart"
-	elif roll <= 12:
-		loot = "blackened bones"
-	elif roll <= 20:
-		loot = "ashes"
-	elif roll <= 30:
-		loot = "rotten meat"
-	elif roll <= 40:
-		loot = "a rock"
-	elif roll <= 50:
-		loot = "a blue gem"
-	elif roll <= 60:
-		loot = "a yellow gem"
-	elif roll <= 65:
-		loot = "a red gem"
-	elif roll <= 70:
-		loot = "goat skin"
-	elif roll <= 75:
-		loot = "black sword"
-	elif roll <= 80:
-		loot = "\"Sentence 4: Fire Vomit\""
-	elif roll <= 85:
-		loot = "\"Delirious Verses I: Poisonous Offspring\""
-	elif roll <= 90:
-		loot = "\"Edict 3-12: Ice Wall\""
-	elif roll <= 95:
-		loot = "\"Empty Stone Tablet: Silence\""
-	elif roll <= 96:
-		loot = "\">Bible Black\" (THE MANGA)"
-	else:
-		loot = "nothing"
-	chest = true
-	remove_from_group("chest")
-	
-	
-	var item_che_ho_messo_nel_gioco_uno_di_ogni_tipo_poi_ti_implementi_tutti_gli_oggetti_con_tutte_le_descrizioni_e_tutte_le_texutre = [
+
+	# non scalabile però per adesso va bene
+	# prossimamente al posto di fare sta cacata usami l attributo name di ogni oggeti per fare il messaggio
+	var item_file = [
 		#oggetti
-		"Blue Gem",
-		"Deer Antlers",
-		"Human Skull",
-		"Red Gem",
-		"Rock",
+		["Blue Gem", "objects/blue_gem.tres"],
+		["Deer Antlers", "objects/deer_antlers.tres"],
+		["Human Skull", "objects/human_skull.tres"],
+		["Red Gem", "objects/red_gem.tres"],
+		["Rock", "objects/rock.tres"],
 		#equipment
-		"Black Iron",
-		"Chu-ko-nu",
-		"Double Knight Swords",
-		"Finger Darts",
-		"Ghoul Mask",
-		"God of Death's Greatsword",
-		"Jagged Greatsword",
-		"Jitte",
-		"Khanda",
-		"Kris",
-		"Lucerne Hammer",
-		"Macuahuitl",
-		"Parashu",
-		"Plumbata",
-		"Shotel",
-		"Throwing Knives",
-		"Tibiar",
-		"Urumi",
-		"Vertebrale",
-		"Yari",
+		["Black Iron", "equipments/black_iron.tres"], 
+		["Chu-ko-nu", "equipments/chu-ko-nu.tres"],
+		["Double Knight Swords", "equipments/double_knight_swords.tres"],
+		["Finger Darts", "equipments/finger_darts.tres"],
+		["Ghoul Mask", "equipments/ghoul_mask.tres"],
+		["God of Death's Greatsword", "equipments/GOD_greatsword.tres"],
+		["Jagged Greatsword", "equipments/jagged_greatsword.tres"],
+		["Jitte", "equipments/jitte.tres"],
+		["Khanda", "equipments/khanda.tres"],
+		["Kris", "equipments/kris.tres"],
+		["Lucerne Hammer","equipments/lucerne_hammer.tres"], 
+		["Macuahuitl", "equipments/macuahuitl.tres"],
+		["Parashu","equipments/parashu.tres"], 
+		["Plumbata", "equipments/plumbata.tres"],
+		["Shotel","equipments/shotel.tres"],
+		["Throwing Knives", "equipments/throwing_knives.tres"],
+		["Tibiar", "equipments/tibiar.tres"],
+		["Urumi", "equipments/urumi.tres"],
+		["Vertebrale", "equipments/vertebrale.tres"],
+		["Yari", "equipments/yari.tres"],
 		#food
-		"Borscht",
-		"Golden Milk",
-		"Miso Soup",
-		"Nail Soup",
-		"Rotten Meat",
-		"Watermelon",
+		["Borscht", "food/borscht.tres"],
+		["Golden Milk", "food/golden_milk.tres"],
+		["Miso Soup", "food/miso_soup.tres"],
+		["Nail Soup", "food/nail_soup.tres"],
+		["Rotten Meat", "food/rotten_meat.tres"],
+		["Watermelon", "food/watermelon.tres"],
 		#incantesimi
-		"Apocryphal 1: Devour Yourself",
-		"Apocryphal 2: Abyss' Fangs",
-		"Edict 1: Unnatural Growth",
-		"Sentence 1: Undead Whisper",
-		"Sentence 2: Not Dead Enough",
-		"Sentence 3: Crimson Dusk",
-		"Sentence 4: Fire Vomit",
-		"Sentence 5: Testicular Torsion",
-		"Verses 1: Poisonous Offspring",
+		["Apocryphal 1: Devour Yourself", "spells/apoc1_devourYourself.tres"],
+		["Apocryphal 2: Abyss' Fangs", "spells/apoc2_abyssFangs.tres"],
+		["Edict 1: Unnatural Growth", "spells/edic1_innaturalGrowth.tres"],
+		["Sentence 1: Undead Whisper", "spells/sent1_undeadWhisper.tres"],
+		["Sentence 2: Not Dead Enough","spells/sent2_notDeadEnough.tres"],
+		["Sentence 3: Crimson Dusk", "spells/sent3_crimsonDusk.tres"],
+		["Sentence 4: Fire Vomit", "spells/sent4_fireVomit.tres"],
+		["Sentence 5: Testicular Torsion", "spells/sent5_testicularTorsion.tres"],
+		["Verses 1: Poisonous Offspring", "spells/vers1_poisonousOffspring.tres"],
 	]
-	loot = item_che_ho_messo_nel_gioco_uno_di_ogni_tipo_poi_ti_implementi_tutti_gli_oggetti_con_tutte_le_descrizioni_e_tutte_le_texutre[randi() % item_che_ho_messo_nel_gioco_uno_di_ogni_tipo_poi_ti_implementi_tutti_gli_oggetti_con_tutte_le_descrizioni_e_tutte_le_texutre.size()]
-	var item: InventoryItem
-	if loot == "Blue Gem":
-	# roba solo per testare poi quando fai tutto gli oggetti puoi rimettere puoi togliere questa roba
-		item= preload("res://inventory/items/objects/blue_gem.tres")
-	elif loot == "Black Sword":
-		item= preload("res://inventory/items/equipments/black_iron.tres")
-	elif loot == "rotten meat":
-		item= preload("res://inventory/items/foods/rotten_meat.tres")
-	elif loot == "Sentence 4: Fire Vomit":
-		item= preload("res://inventory/items/spells/sent4_fireVomit.tres")
-		
-	inventory.collect(item)
-	
-	label.text = ("You found " + loot)
+
+
+	randomize()
+	# prende un indice casuale (sceglie un oggetto)
+	var random_index = randi() % item_file.size()
+	loot = item_file[random_index][0]
+	var item_file_name = item_file[random_index][1]
+	var path = "res://inventory/items/" + item_file_name
+	var item: InventoryItem = load(path)
+	Inventory.collect(item, 1)
+
+	label.text = "You found " + loot
 	get_tree().paused = true
 	dialogue.visible = true
+	
 	await type_text(label, "You found " + loot)
 	chiusa.visible = false
 	
@@ -137,33 +91,13 @@ func type_text(label: Label, full_text: String, speed: float = 0.01) -> void:
 		await get_tree().create_timer(speed).timeout
 
 func _input(event):
+	
 	if get_tree().paused and event.is_action_pressed("interact") and chest == true:
+		print("ok1")
 		get_tree().paused = false
 		dialogue.visible = false
 		label.text = ""
 		chest = false
-	
-			
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#
-
 
 func _on_barrels_body_entered(body: Node2D) -> void:
 	pass # Replace with function body.

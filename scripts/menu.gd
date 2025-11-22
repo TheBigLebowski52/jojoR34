@@ -4,7 +4,7 @@ extends Control
 @onready var general_container: TabContainer = $PanelContainer/GeneraltabContainer
 @onready var location: Label = $PanelContainer/GeneraltabContainer/CharacterList/Location/location
 @onready var something: Label = $PanelContainer/GeneraltabContainer/CharacterList/Location/something
-@onready var dialogue: NinePatchRect = $"../../Camera2D/Dialogo"
+@onready var dialogue: NinePatchRect = $"../../Camera2D/DialogueLayer/Dialogo"
 
 @onready var inventory_tab_container: TabContainer = $PanelContainer/GeneraltabContainer/INVENTORY/InventoryTabContainer
 
